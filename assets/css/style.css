@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto&display=swap');
+
+body {
+  font-family: 'Amatic SC', sans-serif;
+  color: ivory;
+}
+
+#bg-band {
+  background: url(../images/koa-band.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  background-color: blue;
+  justify-content: center;
+}
+/*------header------*/
+#head-container {
+  height: 30px;
+}
+
+.menu a{
+  color: ivory;
+  font-size: 120%;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.band-logo {
+  background: url(../images/koa-bandlogo.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+#nav-container {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+.nav-link:hover {
+color: greenyellow;
+}
+
+#fan-font-size {
+  font-size: 40px;
+}
+/*------navigation ------*/
+
+
+
+/*------section------*/
+/*------footer------*/
+#foot-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.media-links {
+ text-align: center;
+ justify-content: center;
+ padding: 0;
+ margin: 0;
+}
+.media-links li a i {
+  color: ivory;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.head-foot-col-align {
+  text-align: center;
+  justify-content: center;
+}
