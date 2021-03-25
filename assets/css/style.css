@@ -10,19 +10,19 @@ body {
   background-size: cover;
   position: relative;
   max-width: 100%;
-  height: 1000px;
+  height: 1200px;
   padding: 0;
   margin: 0;
 }
 
 .row {
-  background-color: blue;
   justify-content: center;
 }
-/*------header------*/
-#head-container {
-  height: 30px;
+
+.bg-row {
+background-color: rgba(0, 0, 0, 0.8);
 }
+/*------header------*/
 
 .menu a{
   color: ivory;
@@ -39,17 +39,27 @@ body {
   height: 100px;
 }
 
+#head-container {
+  height: 30px;
+}
+
 #nav-container {
   position: fixed;
   left: 0;
   width: 100%;
 }
-.nav-link:hover {
-color: greenyellow;
+
+.fan-font-size {
+  font-size: 40px;
 }
 
-#fan-font-size {
-  font-size: 40px;
+.clear-header {
+  height: 500px;
+  margin: auto;
+  padding: 0
+}
+.nav-link:hover {
+color: greenyellow;
 }
 /*------navigation ------*/
 
@@ -71,6 +81,7 @@ color: greenyellow;
  padding: 0;
  margin: 0;
 }
+
 .media-links li a i {
   color: ivory;
   font-size: 30px;
@@ -83,4 +94,8 @@ color: greenyellow;
 .head-foot-col-align {
   text-align: center;
   justify-content: center;
+}
+
+.media-links li a i:hover {
+  color: olive;
 }
