@@ -61,9 +61,78 @@ background-color: rgba(0, 0, 0, 0.8);
 .nav-link:hover {
 color: greenyellow;
 }
-/*------navigation ------*/
+/*------Giglist/Signup ------*/
+.rounded-circle {
+  background-color: rgba(224, 172, 26, 0.877);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: center;
+}
+ 
+ .signup-text {
+   padding-top: 20px; 
+   color: black;
+   font-size: 25px;
+   font-weight: 400;
+ }
 
+.signup-text, a:visited {
+  color: ivory;
+  font-size: 30px;
+  text-decoration: none;
+}
 
+.signup-text:hover {
+color: grey;
+}
+
+.gig-list-text:hover {
+color: grey;
+}
+
+.gig-list-text, a:visited {
+  color: ivory;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.gig-list-right-align {
+ justify-content: center;
+ vertical-align: center;
+ padding: 0;
+}
+
+#gig-list-center-align {
+  text-align: center;
+}
+
+#sign-gig-container {
+  justify-content: center;
+  height: 200px;
+}
+
+#sign-gig-container-left {
+  float: left;
+  margin-left: 0;
+  justify-content: center;
+  min-width: 45%;
+  position: relative;
+}
+
+#sign-gig-container-right {
+  justify-content: center;
+  vertical-align: middle;
+  float: right;
+  min-width: 45%;
+  height: 200px;
+  margin-right: 0;
+  position: relative;
+}
+
+.sign-gig-right-size > a {
+ height: 200px;   
+}
 
 /*------section------*/
 /*------footer------*/
