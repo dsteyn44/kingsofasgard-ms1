@@ -24,7 +24,6 @@ body {
     margin: 0;
 }
 
-
 .row {
   justify-content: center;
 }
@@ -32,7 +31,7 @@ body {
 .bg-row {
 background-color: rgba(0, 0, 0, 0.8);
 }
-/*------header------*/
+/*------Header------*/
 
 .menu a{
   color: ivory;
@@ -71,9 +70,9 @@ background-color: rgba(0, 0, 0, 0.8);
 .nav-link:hover {
 color: greenyellow;
 }
-/*------Giglist/Signup ------*/
+/*------Proclaimer Container 
 .rounded-circle {
-  background-color: rgba(224, 172, 26, 0.877);
+  background-color: rgba(224, 172, 26, 0.8);
   width: 200px;
   height: 200px;
   text-align: center;
@@ -146,7 +145,7 @@ text-decoration: none;
  vertical-align: center;
  padding: 0;
 }
-/*------Saga------*/
+/*------the Legend
 .bg-saga-color {
     background-color: black;
     background-size: cover;
@@ -167,7 +166,7 @@ height: 600px;
     padding: 30px 30px;
     overflow: scroll;
 }
-/*------Album------*/
+/*------Album
 
 #album-heading-center {
     font-size : 20%;
