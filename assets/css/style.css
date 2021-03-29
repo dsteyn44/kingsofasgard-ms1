@@ -22,13 +22,22 @@ body {
 }
 
 /*------Header-------*/
- 
+
+
+
 .menu {
     padding-top: 40px;
     text-align: center;
 }
 
-img {
+.navbar {
+position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+#band-logo-img {
      width: 300px;
      height: 100px;
 }
@@ -37,15 +46,19 @@ img {
     display: inline-block;
 }
 
-.nav-link-align {
-    vertical-align: middle;
+@media (max-width: 576px ) {
+#band-logo-img {
+    width: 200px;
+    height: 68px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-@media (max-width: 576px) {
-    img {
-     float: left;
-     padding-left: 5px;
-     padding-right: 0;
+#band-logo-container {
+    width: 330px;
+    padding-left: 0;
+    padding-right: 0;
 }
 }
 
