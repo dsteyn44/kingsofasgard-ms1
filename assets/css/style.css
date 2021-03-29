@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto&display=swap');
 
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
 body {
   font-family: 'Amatic SC', sans-serif;
-  color: ivory;
+  color: black;
 }
 
 #bg-band {
@@ -15,62 +21,35 @@ body {
   margin: 0;
 }
 
-#bg-fanwall {
-    background-color: grey;
-    position: relative;
-    max-width: 100%;
-    height: 1000px;
-    padding: 0;
-    margin: 0;
+/*------Header-------*/
+ 
+.menu {
+    padding-top: 40px;
+    text-align: center;
 }
 
-.row {
-  justify-content: center;
+img {
+     width: 300px;
+     height: 100px;
 }
 
-.bg-row {
-background-color: rgba(0, 0, 0, 0.8);
-}
-/*------Header------*/
-
-.menu a{
-  color: ivory;
-  font-size: 120%;
-  letter-spacing: 3px;
-  text-align: center;
-  vertical-align: center;
+.header-inline-block {
+    display: inline-block;
 }
 
-.band-logo {
-  background: url(../images/koa-bandlogo.jpg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 100px;
+.nav-link-align {
+    vertical-align: middle;
 }
 
-#head-container {
-  height: 30px;
+@media (max-width: 576px) {
+    img {
+     float: left;
+     padding-left: 5px;
+     padding-right: 0;
+}
 }
 
-#nav-container {
-  position: fixed;
-  left: 0;
-  width: 100%;
-}
-
-.fan-font-size {
-  font-size: 40px;
-}
-
-.clear-header {
-  height: 500px;
-  margin: auto;
-  padding: 0
-}
-.nav-link:hover {
-color: greenyellow;
-}
-/*------Proclaimer Container 
+/*------Proclaimer Container --
 .rounded-circle {
   background-color: rgba(224, 172, 26, 0.8);
   width: 200px;
