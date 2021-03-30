@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Amatic SC', sans-serif;
-    color: greenyellow;
+    color: green;
 }
 
 /*-------Header-------*/
@@ -41,6 +41,47 @@ button span i{
 /*-------Band-------*/
 /*-------The Legend-------*/
 /*-------Footer-------*/
+.bg-footer-color {
+ background-color: rgba(0, 0, 0, 0.8);
+}
+
+.foot-row-align {
+    justify-content: center;
+}
+
+#foot-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.media-links {
+ text-align: center;
+ justify-content: center;
+ padding: 0;
+ margin: 0;
+}
+
+.media-links li a i {
+  color: ivory;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.head-foot-col-align {
+  text-align: center;
+  justify-content: center;
+}
+
+.media-links li a i:hover {
+  color: pink;
+}
 /*-------Fanwall-------*/
 /*-------Cool Stuff-------*/
 /*-------Our Army-------*/
