@@ -33,13 +33,42 @@
                     <a class="nav-link" href="#">The Legend <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         The Fanwall!
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
                         <a class="dropdown-item" href="#">Cool Stuff</a>
-                        <a class="dropdown-item" href="#">OUr Army!</a>
+                        <a class="dropdown-item" href="#">Our Army!</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact Us!
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropMenuLink">
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <form class="px-4 py-3">
+                            <div class="form-group">
+                                <label for="fullname">Please add any further comments here !
+                                    get back to you.</label>
+                                <input type="text" class="form-control" id="fullname"
+                                    placeholder="Full Name" required />
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                    placeholder="email@example.com" required />
+                            </div>
+                            <div class="form-group">
+                                <textarea name="comments" rows="5" class="form-control"
+                                    placeholder="Please add any further comments here!" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item" href="#">Forgot password?</a>
+                    </form>
                     </div>
                 </li>
             </ul>
@@ -51,7 +80,7 @@
     <!--Footer-->
     <footer id="foot-container" class=" container-fluid bg-footer-color">
         <div class="row">
-            <div class="col-sm-2 foot-row-align">
+            <div class="d-none d-sm-block col-lg-2 foot-row-align">
                 <div class="btn-group dropup">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
@@ -63,11 +92,11 @@
                         </button>
                         <form class="px-4 py-3">
                             <div class="form-group">
-                                <label for="fullname">Please add any further comments here !
+                                <label for="full_name">Please add any further comments here !
                                     get back to you.</label>
-                                <input type="text" class="form-control" id="fullname"
+                                <input type="text" class="form-control" id="full_name"
                                     placeholder="Full Name" required />
-                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                <input type="email" class="form-control" id="exampleDropFormEmail1"
                                     placeholder="email@example.com" required />
                             </div>
                             <div class="form-group">
