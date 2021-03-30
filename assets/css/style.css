@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto&display=swap');
+
+body {
+    font-family: 'Amatic SC', sans-serif;
+    color: greenyellow;
+}
 
 /*-------Header-------*/
+.bg-navbar {
+    background-color: green;
+}
+
+.nav {
+    color: green;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button span i{
+   font-size: 30px;
+   text-align: center;
+   color:greenyellow;
+}
+
+.nav-link, .dropdown-item, .nav-item {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+/*-------Stack Overflow-------*/
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 /*-------Front-------*/
 /*-------Band-------*/
 /*-------The Legend-------*/
