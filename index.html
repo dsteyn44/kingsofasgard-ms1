@@ -14,7 +14,7 @@
 
 <body>
     <!--The Header-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar nav-container">
         <a class="navbar-brand" href="#"><img src="assets/images/koa-bandlogo.jpg" alt="king-of-asgard-band_logo"
                 width="210" height="70"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -55,8 +55,8 @@
                             <div class="form-group">
                                 <label for="fullname">Please add any further comments here !
                                     get back to you.</label>
-                                <input type="text" class="form-control" id="fullname"
-                                    placeholder="Full Name" required />
+                                <input type="text" class="form-control" id="fullname" placeholder="Full Name"
+                                    required />
                                 <input type="email" class="form-control" id="exampleDropdownFormEmail1"
                                     placeholder="email@example.com" required />
                             </div>
@@ -68,13 +68,32 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">New around here? Sign up</a>
                             <a class="dropdown-item" href="#">Forgot password?</a>
-                    </form>
+                        </form>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
     <!--Call Out-->
+    <div class="container fluid bg-front-container">
+        <div class="front-space-container">
+        </div>
+            <div>
+                <div class="row">
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    <audio src="assets/css/Music/02 Einharjar.m4a" controls muted loop>Einharjar</audio>
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+        <div class="front-space-container">
+        </div>
+    </div>
     <!--The Band-->
     <!--The legend-->
     <!--Footer-->
@@ -94,8 +113,8 @@
                             <div class="form-group">
                                 <label for="full_name">Please add any further comments here !
                                     get back to you.</label>
-                                <input type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" required />
+                                <input type="text" class="form-control" id="full_name" placeholder="Full Name"
+                                    required />
                                 <input type="email" class="form-control" id="exampleDropFormEmail1"
                                     placeholder="email@example.com" required />
                             </div>
@@ -107,12 +126,12 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">New around here? Sign up</a>
                             <a class="dropdown-item" href="#">Forgot password?</a>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-8">
-           <ul class="list-inline media-links">
+            <div class="col-sm-8">
+                <ul class="list-inline media-links">
                     <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i
                                 class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
                     </li>
@@ -133,9 +152,9 @@
                             <span class="sr-only">Spotify</span></a>
                     </li>
                 </ul>
-        </div>
-        <div class="col-sm-2">
-        </div>
+            </div>
+            <div class="col-sm-2">
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

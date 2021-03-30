@@ -2,14 +2,21 @@
 
 body {
     font-family: 'Amatic SC', sans-serif;
-    color: green;
+    color: ivory;
 }
 
 /*-------Header-------*/
 .bg-navbar {
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: seashell;
 }
 
+.nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 .nav {
     color: green;
     font-family: 'Amatic SC', sans-serif;
@@ -20,12 +27,12 @@ body {
 button span i{
    font-size: 30px;
    text-align: center;
-   color:greenyellow;
+   color: ivory;
 }
 
 .nav-link, .dropdown-item, .nav-item {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 /*-------Stack Overflow-------*/
@@ -38,6 +45,21 @@ button span i{
     box-shadow: none;
 }
 /*-------Front-------*/
+.bg-front-container {
+    background: url('../images/koa-band.jpg') black no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height: 1000px;
+    z-index: 2;
+}
+
+.front-space-container {
+    height: 450px;
+}
+
 /*-------Band-------*/
 /*-------The Legend-------*/
 /*-------Footer-------*/
