@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Amatic SC', sans-serif;
-    color: ivory;
+    color: greenyellow;
+    font-weight: 400;
 }
 
 /*-------Header-------*/
@@ -16,6 +17,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 .nav {
     color: green;
@@ -46,19 +48,72 @@ button span i{
 }
 /*-------Front-------*/
 .bg-front-container {
-    background: url('../images/koa-band.jpg') black no-repeat center center fixed;
+    background: url('../images/koa-band.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
-    z-index: 2;
+    overflow: auto;
 }
+/*-------Overflow: Auto----*/
 
 .front-space-container {
     height: 450px;
 }
+
+
+.jumbotron {
+    color: rgba(224, 172, 26, 0.8);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    justify-content: center;
+}
+
+.btn--jbt {
+    color: ivory;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgba(224, 172, 26, 0.25);
+    border: none;
+}
+
+.btn--mdl {
+    color:ivory;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgba(224, 172, 26, 0.6);
+    border: none;
+}
+
+/*-------Stack Overflow-------*/
+.btn--jbt,
+.btn--jbt:focus,
+.btn--jbt:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.modal-body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) { 
+   
+    .jumbotron {
+    color: rgba(224, 172, 26, 0.8);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    justify-content: center;
+    margin: 0;
+}
+ }
 
 /*-------Band-------*/
 /*-------The Legend-------*/
@@ -104,6 +159,8 @@ button span i{
 .media-links li a i:hover {
   color: pink;
 }
+
+
 /*-------Fanwall-------*/
 /*-------Cool Stuff-------*/
 /*-------Our Army-------*/
