@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Kings of Asgård</title>
 </head>
+
 <body>
     <!--The Header-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-navbar nav-container">
@@ -38,75 +39,52 @@
                         <a class="dropdown-item" href="#">Our Army!</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item ">
+                    <button type="button" class="btn contactModal" data-toggle="modal" data-target="#contactModal">
                         Contact Us!
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropMenuLink">
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <form class="px-4 py-3">
-                            <div class="form-group">
-                                <label for="fullname">Please add any further comments here !
-                                    get back to you.</label>
-                                <input type="text" class="form-control" id="fullname" placeholder="Full Name"
-                                    required />
-                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
-                                    placeholder="email@example.com" required />
-                            </div>
-                            <div class="form-group">
-                                <textarea name="comments" rows="3" class="form-control"
-                                    placeholder="Please add any frther comments here!" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">New around here? Sign up</a>
-                            <a class="dropdown-item" href="#">Forgot password?</a>
-                        </form>
-                    </div>
+                    </button>
                 </li>
             </ul>
         </div>
     </nav>
     <!--Call Out-->
     <div class="container-fluid bg-front-container">
-        <div class="front-space-container">
-            <div class="row">
-                <div class="col-sm ">
-                    <div class="audio-container">
-                        <span>Our Latest Single - Einjarhar</span>
-                        <audio id="player" src="">Eihhar Jar</audio>
-                        <div>
-                            <button onclick="document.getElementById('player').play()">Play</button>
-                            <button onclick="document.getElementById('player').pause()">Pause</button>
-                            <button onclick="document.getElementById('player').volume += 0.1">Vol +</button>
-                            <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col" id="space-container">
             </div>
         </div>
         <div>
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6" id="gig-container">
                     <div class="jumbotron">
-                        <h4><strong>Win a Signed Guitar!</strong></h4>
-                        <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#exampleModal">
-  Sign Up!
-</button>
-                        <p><small>To be added into a draw to win a signed guitar.</small></p>
+                        <h4 class="display-4">The Gig Guide</h4>
+                        <p class="lead">Check out where we are playing next.</p>
+                        <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#gigModal">Learn
+                            more</button>
                     </div>
-                </div>
-                <div class="col-sm justify-content-center">
-                    One of three columns
-                </div>
+                </div>ß
             </div>
         </div>
-        <div class="front-space-container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="jumbotron">
+                    <h4><strong>Win a Signed Guitar!</strong></h4>
+                    <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#exampleModal">
+                        Sign Up!
+                    </button>
+                    <p><small>To be added into the draw.</small></p>
+                </div>
+            </div>
+            <div class="col-sm">
+
+            </div>
         </div>
     </div>
+    <div class="front-space-container">
+    </div>
+
     <!--The Band-->
     <!--The legend-->
     <!--Footer-->
@@ -141,62 +119,127 @@
             </div>
         </div>
     </footer>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Welcome to the Castle!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <form>
-  <div class="form-group row">
-    <label for="fullName2" class="col-sm-2 col-form-label"></label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" id="fullName2" placeholder="Full Name" required />
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label"></label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required />
-    </div>
-  </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-2 pt-0"></legend>
-      <div class="col-sm-10">
-        <div class="form-check">
+    <div class="modal fade" id="gigModal" tabindex="-1" role="dialog" aria-labelledby="gigModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gigModalLabel">Click on the venue for ticket availibilty and purchase.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Stockholm SWE • Global •12th June 2021 •22h00 </a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Vadstena SWE • Klosterkyka • 16th June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">London UK • O2 Arena • 20th June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Nuuk GL • Centrum • 28th June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">London UK • O2 Arena • 10th July 2021 • 22h00</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </fieldset>
-  <div class="form-group row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-10">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">I am over 18 years of age
-        </label>
-      </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Welcome to the Castle!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="fullname">Please add any further comments here !
+                                get back to you.</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="Full Name" required="">
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                placeholder="email@example.com" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="comments" rows="3" class="form-control"
+                                placeholder="Please add any further enquires here!" required=""></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subit to the King!</button>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">New around here? Sign up</a>
+                        <a class="dropdown-item" href="#">Forgot password?</a>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="form-group row">
-    <div class="col-sm-10">
-      <button type="submit" class="btn btn--mdl">I Feel Lucky!</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Welcome to the Castle!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="fullName" class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="fullName" placeholder="Full Name"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail2" class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail2" placeholder="Email"
+                                    required />
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0"></legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">I am over 18 years of age
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn--mdl">I Feel Lucky!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

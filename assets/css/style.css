@@ -8,7 +8,7 @@ body {
 
 /*-------Header-------*/
 .bg-navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 73, 55, 0.8);
     color: seashell;
 }
 
@@ -55,22 +55,25 @@ button span i{
     background-size: cover;
     max-width: 100%;
     height: 1000px;
-    overflow: auto;
 }
 /*-------Overflow: Auto----*/
 
-.front-space-container {
-    height: 450px;
+#space-container {
+    height: 600px;
 }
 
+.lead {
+    font-family: 'Amatic', sans-serif;
+}
 
 .jumbotron {
-    color: rgba(224, 172, 26, 0.8);
+    color: rgba(0, 226, 170, 0.8);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 73, 55, 0.753);
     border-radius: 0;
     justify-content: center;
+    padding: 0;
 }
 
 .btn--jbt {
@@ -79,6 +82,7 @@ button span i{
     font-weight: 400;
     background: rgba(224, 172, 26, 0.25);
     border: none;
+    border-radius: 0;
 }
 
 .btn--mdl {
@@ -87,9 +91,21 @@ button span i{
     font-weight: 400;
     background: rgba(224, 172, 26, 0.6);
     border: none;
+    border-radius: 0;
 }
 
 /*-------Stack Overflow-------*/
+.dropdown-item-font {
+    font-family: 'Roboto', sans-serif,
+}
+.gig-list {
+    font-family: 'Amatic SC', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 .btn--jbt,
 .btn--jbt:focus,
 .btn--jbt:active {
@@ -98,28 +114,18 @@ button span i{
     box-shadow: none;
 }
 
+
 .modal-body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 576px) { 
-   
-    .jumbotron {
-    color: rgba(224, 172, 26, 0.8);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 0;
-    justify-content: center;
-    margin: 0;
-}
- }
+
 
 /*-------Band-------*/
 /*-------The Legend-------*/
 /*-------Footer-------*/
 .bg-footer-color {
- background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 73, 55, 0.8);
 }
 
 .foot-row-align {
@@ -136,28 +142,28 @@ button span i{
 }
 
 .media-links {
- text-align: center;
- justify-content: center;
- padding: 0;
- margin: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .media-links li a i {
-  color: ivory;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  min-height: 50px;
-  padding: 10px;
+    color: ivory;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
 }
 
 .head-foot-col-align {
-  text-align: center;
-  justify-content: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .media-links li a i:hover {
-  color: pink;
+    color: pink;
 }
 
 
