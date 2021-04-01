@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto&display=swap');
 
 body {
-    font-family: 'Amatic SC', sans-serif;
-    color: greenyellow;
+    font-family: 'Roboto', sans-serif;
+    color: ivory;
     font-weight: 400;
 }
 
 /*-------Header-------*/
 .bg-navbar {
-    background-color: rgba(0, 73, 55, 0.8);
-    color: seashell;
+    background-color: rgba(47, 79, 79, 0.8);
 }
 
 .nav-container {
@@ -19,6 +18,7 @@ body {
     width: 100%;
     z-index: 2;
 }
+
 .nav {
     color: green;
     font-family: 'Amatic SC', sans-serif;
@@ -26,14 +26,19 @@ body {
     font-weight: 700;
 }
 
-button span i{
+button span i {
    font-size: 30px;
    text-align: center;
+   color: rgba(224, 172, 26);
+}
+
+button span i:hover {
    color: ivory;
 }
 
 .nav-link, .dropdown-item, .nav-item {
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(224, 172, 26);
     font-size: 20px;
     font-weight: 600;
 }
@@ -49,6 +54,7 @@ button span i{
 
 .btn--cct {
     color: ivory;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
     background: rgba(224, 172, 26, 0.25);
@@ -56,34 +62,38 @@ button span i{
     border-radius: 0;
 }
 
-/*-------Front-------*/
+/*-------front-------*/
+
 .bg-front-container {
-    background: url('../images/koa-band.jpg') no-repeat center center;
+    background: url('../images/koa-band.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
+    overflow: auto;
 }
+
 /*-------Overflow: Auto----*/
 
 #space-container {
-    height: 600px;
-}
-
-.lead {
-    font-family: 'Amatic', sans-serif;
+    height: 400px;
 }
 
 .jumbotron {
-    color: rgba(0, 226, 170, 0.8);
+    color: rgba(224, 172, 26);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 73, 55, 0.753);
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0;
     justify-content: center;
     padding: 0;
+}
+
+.gig-display {
+    font-size: 36px;
 }
 
 .btn--jbt {
@@ -103,7 +113,6 @@ button span i{
     border: none;
     border-radius: 0;
 }
-
 /*-------Stack Overflow-------*/
 .dropdown-item-font {
     font-family: 'Roboto', sans-serif;
@@ -131,38 +140,51 @@ button span i{
 }
 
 /*-------Band-------*/
-#intro-band-header {
-    color: darkgreen;
+#intro-band-header h1{
+    color: rgba(224, 172, 26);
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
+    text-emphasis: none;
 }
 
-#intro-band-text
-{
-    color: darkgreen;
-    font-size: 25px;
+#intro-band-text {
+    color: rgba(224, 172, 26);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
 
 #bg-band {
-    background-color: pink;
-    height: 700px;
+    background-color: black;
 }
 
 .card {
     font-family: 'Roboto', sans-serif;
+    color: ivory;
     border-radius: 0;
     border: none;
-    background-color: rgba(0, 226, 170, 0.8);
+    background-color: rgba(224, 172, 26, 0.6);
 }
 
+section {
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#return-text a {
+    color: rgba(224, 172, 26)
+}
+
+a:hover {
+  color: ivory;
+}
 
 /*-------The Legend-------*/
 /*-------Footer-------*/
 .bg-footer-color {
-    background-color: rgba(0, 73, 55, 0.8);
+    background-color: rgba(47, 79, 79, 0.8);
 }
 
 .foot-row-align {
@@ -186,7 +208,7 @@ button span i{
 }
 
 .media-links li a i {
-    color: ivory;
+    color: rgba(224, 172, 26);
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -200,10 +222,8 @@ button span i{
 }
 
 .media-links li a i:hover {
-    color: pink;
+    color: ivory;
 }
-
-
 /*-------Fanwall-------*/
 /*-------Cool Stuff-------*/
 /*-------Our Army-------*/

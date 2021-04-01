@@ -24,19 +24,22 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto navbar-right mr-2 mt-lg-0">
                 <li class="nav-item active li-text-home">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" aria-label="Go to home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item li-text-home">
-                    <a class="nav-link" href="#">The Band <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html#the-band" aria-label="Go to the band">The Band <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLink" role="button"
+                    <a class="nav-link dropdown-toggle" href="fanwall.html" id="navbarDropdownLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         The Fanwall!
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
-                        <a class="dropdown-item" href="#">Cool Stuff</a>
-                        <a class="dropdown-item" href="#">Our Army!</a>
+                        <a class="dropdown-item" href="fanwall.html">The Fanwall</a>
+                        <hr>
+                        <a class="dropdown-item" href="fanwall.html">Cool Stuff</a>
+                        <hr>
+                        <a class="dropdown-item" href="fanwall.html">Our Army!</a>
                     </div>
                 </li>
                 <li class="nav-item ">
@@ -59,12 +62,12 @@
                 </div>
                 <div class="col-sm-6" id="gig-container">
                     <div class="jumbotron">
-                        <h4 class="display-4">The Gig Guide</h4>
-                        <p class="lead">Check out where we are playing next.</p>
+                        <h4 class="gig-display">The Gig Guide</h4>
+                        <p id="lead">Check out where we are playing next.</p>
                         <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#gigModal">Learn
                             more</button>
                     </div>
-                </div>ß
+                </div>
             </div>
         </div>
         <div class="row">
@@ -78,60 +81,63 @@
                 </div>
             </div>
             <div class="col-sm">
-
             </div>
         </div>
     </div>
+     <audio src="assets/Audio/einharjar.m4a" controls muted></audio>
+                <div>If Odin rejects our choir, please click <a href="https://www.youtube.com/watch?v=HblP8090R1w" target="_blank">here</a>
+                </div>
     <div class="front-space-container">
+        <div class="col-12">
+            </div>
     </div>
     <!--The Band-->
-    <section id="bg-band" class="container-fluid no-gutters">
+     <hr id="the-band">
+    <section id="bg-band the-band" class="container-fluid no-gutters">
         <header>
-            <h1 id="intro-band-header">The Band</h1>
-            <p id="intro-band-text">Introducing to you the greatest Death Metal Band in the Galaxy!</p>
+            <a href="index.html" id="intro-band-header"><h1>The Band</h1></a>
+            <p id="intro-band-text">Introducing to you the greatest and meanest Death Metal Band in the Galaxy!</p>
         </header>
         <div class="row">
-            <div class="col-sm-3" style=" padding-top: 20px;">
-                <div class="card" style="width: 10rem; margin: 0 auto;">
+            <div class="col-sm-6" style=" padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
                     <img class="card-img-top" src="assets/images/kalle.png" alt="kalle">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text"><strong>"King" Kalle</strong></p>
+                         <p><small>A voice like Odin's roar, he arrived Like a thunderbolt from Asgård. Was out hunting for a sleuth to play the music of gods, war and stone.</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3" style="padding-top: 20px;">
-                <div class="card" style="width: 10rem; margin: 0 auto;">
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
                     <img class="card-img-top" src="assets/images/jonas.png" alt="jonas">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text"><strong>"Juggernaut" Jonas</strong></p>
+                         <p><small>Plays bass as though the god Bragi rhymed it himself. He was as just hanging out at the bar the day Kalle.</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3" style="padding-top: 20px;">
-                <div class="card" style="width: 10rem; margin: 0 auto;">
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
                     <img class="card-img-top" src="assets/images/mathias.png" alt="mathias">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text"><strong>"Mighty" Mathias</strong></p>
+                         <p><small>Spawn from the drummers of Helheim, the 'Mighty' missed the turn to go home and ended up at the bar. Kalle was waiting.</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3" style="padding-top: 20px;">
-                <div class="card" style="width: 10rem; margin: 0 auto;">
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
                     <img class="card-img-top" src="assets/images/ted.png" alt="ted">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text"><strong>"Thunder" Ted</strong></p>
+                         <p><small>Swinging his stratocaster as though it were the legendary Mjolnir, "thunder" Ted told his wife his was going to the hardware store...and ened up at the bar.</small></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div><a href="index.html"> Return Home † </a></div>
+        <div id="return-text"><a href="index.html"> Return Home † </a></div>
     </section>
-
-
     <!--The legend-->
     <!--Footer-->
     <footer id="foot-container" class=" container-fluid bg-footer-color">
@@ -301,5 +307,4 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
