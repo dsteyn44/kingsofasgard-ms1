@@ -46,6 +46,16 @@ button span i{
     border: none;
     box-shadow: none;
 }
+
+.btn--cct {
+    color: ivory;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgba(224, 172, 26, 0.25);
+    border: none;
+    border-radius: 0;
+}
+
 /*-------Front-------*/
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
@@ -96,8 +106,9 @@ button span i{
 
 /*-------Stack Overflow-------*/
 .dropdown-item-font {
-    font-family: 'Roboto', sans-serif,
+    font-family: 'Roboto', sans-serif;
 }
+
 .gig-list {
     font-family: 'Amatic SC', sans-serif;
     text-align: center;
@@ -119,9 +130,35 @@ button span i{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 /*-------Band-------*/
+#intro-band-header {
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#intro-band-text
+{
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bg-band {
+    background-color: pink;
+    height: 700px;
+}
+
+.card {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0;
+    border: none;
+    background-color: rgba(0, 226, 170, 0.8);
+}
+
+
 /*-------The Legend-------*/
 /*-------Footer-------*/
 .bg-footer-color {
