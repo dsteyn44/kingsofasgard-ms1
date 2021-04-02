@@ -38,10 +38,22 @@ button span i:hover {
 
 .nav-link, .dropdown-item, .nav-item {
     font-family: 'Roboto', sans-serif;
-    color: rgba(224, 172, 26);
+    color: black;
     font-size: 20px;
     font-weight: 600;
 }
+
+
+.nav-link, .dropdown-item, .nav-item,
+.nav-link, .dropdown-item, .nav-item:focus,
+.nav-link, .dropdown-item, .nav-item:active,
+.nav-link, .dropdown-item, .nav-item:focusß {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
 /*-------Stack Overflow-------*/
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -101,8 +113,7 @@ button span i:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10, 0, 10, 0;
 }
 
 .gig-display {
@@ -111,7 +122,7 @@ button span i:hover {
 
 @media (max-width: 575.98px) { 
 
-    .gig-jumbotron {
+.gig-jumbotron {
     font-size: 10px;
 }
 
@@ -131,6 +142,14 @@ button span i:hover {
     background: rgba(224, 172, 26, 0.25);
     border: none;
     border-radius: 0;
+}
+
+.btn--jbt,
+.btn--jbt:focus,
+.btn--jbt:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
 
 .btn--mdl {
@@ -154,14 +173,6 @@ button span i:hover {
     padding-right: 3px;
 }
 
-.btn--jbt,
-.btn--jbt:focus,
-.btn--jbt:active {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
-
 .modal-backdrop {
  background-color: rgba(0, 0, 0, 0.8);
 }
@@ -172,7 +183,7 @@ button span i:hover {
 }
 
 /*-------Band-------*/
-#intro-band-header h1{
+.intro-band-header h1{
     color: rgba(224, 172, 26);
     font-size: 50px;
     font-weight: 400;
@@ -180,7 +191,7 @@ button span i:hover {
     text-emphasis: none;
 }
 
-#intro-band-text {
+.intro-band-text {
     color: rgba(224, 172, 26);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -272,6 +283,68 @@ a:hover {
     color: ivory;
 }
 /*-------Fanwall-------*/
+
+.btn--fancct {
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgb(135, 140, 175);
+    border: none;
+    border-radius: 0;
+}
+
+.btn--nsu {
+    color: ivory;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgb(135, 140, 175);
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+.btn--nsu,
+.btn--nsu:focus,
+.btn--nsu:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.bg-fan-container {
+    background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height: 1000px;
+    overflow: auto;
+}
+
+.intro-fan-text {
+    color: rgb(135, 140, 175);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1{
+    color: rgb(135, 140, 175);
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-emphasis: none;
+}
+
+#fan-header-margin {
+    margin-top: 70px;
+}
+
 /*-------Cool Stuff-------*/
+
 /*-------Our Army-------*/
 /*-------Fail Page-------*/
