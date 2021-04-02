@@ -4,60 +4,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Fanwall</title>
+    <title>Kings of Asgård</title>
 </head>
+
 <body>
-    <article>
-        <header>
-            <nav>
-            </nav>
-        </header>
-    </article>
+    <!--The Header-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar nav-container">
+        <a class="navbar-brand" href="#"><img src="assets/images/koa-bandlogo.jpg" alt="king-of-asgard-band_logo"
+                width="210" height="70"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-water"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto navbar-right mr-2 mt-lg-0">
+                <li class="nav-item active li-text-home">
+                    <a class="nav-link" href="index.html" aria-label="Go to home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item li-text-home">
+                    <a class="nav-link" href="index.html#the-band" aria-label="Go to the band">The Band <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="fanwall.html" id="navbarDropdownLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        The Fanwall!
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
+                        <a class="dropdown-item" href="fanwall.html">The Fanwall</a>
+                        <hr>
+                        <a class="dropdown-item" href="fanwall.html">Cool Stuff</a>
+                        <hr>
+                        <a class="dropdown-item" href="fanwall.html">Our Army!</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <button type="button" class="btn btn--cct" data-toggle="modal" data-target="#contactModal">
+                        Contact Us!
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!--Fanwall-->
-    <section>
-    </section>
-    <!--Saga-->
-    <article>
-    </article>
-    <!--Footer-->
-    <footer id="foot-container" class="container-fluid bg-container-color no gutters">
-        <div id="footer-row" class="row bg-row">
-            <div class="col-12 head-foot-col-align">
-                <h4>-Follow your King-</h4>
+    <div class="container-fluid bg-front-container">
+        <div class="row">
+            <div class="col" id="space-container">
             </div>
         </div>
-        <div class="row bg-row">
-            <div class="col-12">
+        <div>
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6" id="gig-container">
+                    <div class="jumbotron">
+                        <h4 class="gig-display">The Gig Guide</h4>
+                        <p id="lead">Check out where we are playing next!</p>
+                        <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#gigModal">Rock here!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-none d-sm-block col-sm-12">
+                <div class="gig-jumbotron">
+                    <h4><strong>Win a Signed Guitar!</strong></h4>
+                    <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#exampleModal">
+                        Sign Up!
+                    </button>
+                    <p><small>To be added into the draw.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Cool-stuff-->
+     <div>
+     </div>
+    <section id="cool-stuff" class="container-fluid bg-band no-gutters">
+        <header>
+            <a href="fanwall.html" id="intro-band-header"><h1>Cool Stuff</h1></a>
+            <p id="intro-band-text">Introducing to you the greatest and meanest Death Metal Band in the Galaxy!</p>
+        </header>
+        <div class="row">
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
+                    <img class="card-img-top" src="assets/images/kalle-new.png" alt="kalle">
+                    <div class="card-body">
+                        <p class="card-text"><strong>"King" Kalle</strong></p>
+                         <p><small>A voice like Odin's roar, he arrived Like a thunderbolt from Asgård. Was out hunting for a sleuth to play the music of gods, war and stone.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
+                    <img class="card-img-top" src="assets/images/jonas-new.png" alt="jonas">
+                    <div class="card-body">
+                        <p class="card-text"><strong>"Juggernaut" Jonas</strong></p>
+                         <p><small>Plays bass as though the god Bragi rhymed it himself. Happened to be just hanging out at the bar the day Kalle came a calling.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
+                    <img class="card-img-top" src="assets/images/mathias-new.png" alt="mathias">
+                    <div class="card-body">
+                        <p class="card-text"><strong>"Mighty" Mathias</strong></p>
+                         <p><small>Spawn from the drummers of Helheim, the 'Mighty' missed the turn to go home and ended up at the bar. Kalle was waiting.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="padding-top: 20px;">
+                <div class="card" style="width: 15rem; margin: 0 auto;">
+                    <img class="card-img-top" src="assets/images/ted-new.png" alt="ted">
+                    <div class="card-body">
+                        <p class="card-text"><strong>"Thunder" Ted</strong></p>
+                         <p><small>Swinging his stratocaster as though it were the legendary Mjolnir, "thunder" Ted told his wife his was going to the hardware store...and ened up at the bar.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="return-text"><a href="index.html"> Return Home † </a></div>
+    </section>
+    <!--Our-Army-->
+
+
+
+    
+    <!--Footer-->
+    <footer id="foot-container" class=" container-fluid bg-footer-color">
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
                 <ul class="list-inline media-links">
-                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"
-                                aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
                     </li>
-                    <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"
-                                aria-hidden="true"></i>
+                    <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span></a>
                     </li>
-                    <li class="list-inline-item"><a href="https://www.soundcloud.com" target="_blank"><i class="fab fa-soundcloud"
-                                aria-hidden="true"></i>
+                    <li class="list-inline-item"><a href="https://www.soundcloud.com" target="_blank"><i
+                                class="fab fa-soundcloud" aria-hidden="true"></i>
                             <span class="sr-only">Soundcloud</span></a>
                     </li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
-                                aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                    <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"><i
+                                class="fab fa-instagram" aria-hidden="true"></i><span
+                                class="sr-only">Instagram</span></a>
                     </li>
-                    <li class="list-inline-item"><a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"
-                                aria-hidden="true"></i>
+                    <li class="list-inline-item"><a href="https://www.spotify.com" target="_blank"><i
+                                class="fab fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span></a>
                     </li>
                 </ul>
             </div>
-            <div>
-            <p><small>copyright©-King of Asgard World</small></p>
-        </div>
+            <div class="col-sm-2">
+            </div>
         </div>
     </footer>
+    <div class="modal fade" id="gigModal" tabindex="-1" role="dialog" aria-labelledby="gigModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gigModalLabel"><strong>Click</strong> on the venue for ticket availability and purchase.
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Stockholm SWE • Global
+                            •12th June 2021 •22h00 </a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Vadstena SWE •
+                            Klosterkyka • 16th June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">London UK • O2 Arena •
+                            20th June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">Nuuk GL • Centrum • 28th
+                            June 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action">London UK • O2 Arena •
+                            10th July 2021 • 22h00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">We look forward in getting in touch</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="fullname">Please add any further comments here!
+                                get back to you.</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="Full Name" required />
+                            </div>
+                            <div class="form-group">
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                placeholder="email@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="comments" rows="3" class="form-control"
+                                placeholder="Please add any further enquires here!" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--mdl">Subit to the King!</button>
+                        <div >
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Welcome to Asgård!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="fullName" class="col-sm-6 col-form-label"></label>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="fullName" placeholder="Full Name"
+                                required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail2" class="col-sm-6 col-form-label"></label>
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="inputEmail2" placeholder="Email"
+                                    aria-required="true" required />
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" required />
+                                    <label class="form-check-label" for="gridCheck1">I am over 18 years of age
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10 mx-auto">
+                                <label for="surprise-question">Pop Question? - write your answer below.</label>
+                                <textarea name="surprise-question" rows="3" class="surprise-question" placeholder="Jonas plays Bass like a god - which god?" required></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                     <button type="submit" class="btn btn--mdl" data-dismiss="modal">I FEEL LUCKY!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
