@@ -32,6 +32,9 @@
                         <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="d-block d-sm-none nav-item">
+                    <a class="nav-link" data-target="#gigModal" data-toggle="modal">The Gig List</a>
+                </li>
+                <li class="d-block d-sm-none nav-item">
                     <a class="nav-link" data-target="#exampleModal" data-toggle="modal">Sign Up!</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -65,7 +68,7 @@
             <div class="row">
                 <div class="col-sm-8">
                 </div>
-                <div class="col-sm-4 ml-auto" id="gig-container">
+                <div class="d-none d-sm-block col-sm-4 ml-auto" id="gig-container">
                     <div class="jumbotron">
                         <h4 class="gig-display">The Gig Guide</h4>
                         <p id="lead">Check out where we are playing next!</p>
@@ -86,10 +89,9 @@
                 </div>
             </div>
             <div class="col-sm-4 mr-auto jumbotron">
-                <iframe src="https://open.spotify.com/embed/track/5AFELVx8jjU889yeXK9g0i" width="300" height="100"
-                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <div>To get you in the mood let's smash it with<h4>"Einharjar"</h4> or to check out this cool video
-                    Youtube please click <a href="https://www.youtube.com/watch?v=HblP8090R1w" target="_blank"
+                <iframe src="https://open.spotify.com/embed/track/5AFELVx8jjU889yeXK9g0i" width="300" height="100" allow="encrypted-media"></iframe>
+                <div>To get you in the mood let's smash it with<h4>"Einharjar"</h4> or to check out this cool video -
+                    Youtube it <a href="https://www.youtube.com/watch?v=HblP8090R1w" target="_blank"
                         rel="noopener">here.</a>
                 </div>
             </div>
@@ -206,9 +208,9 @@
                         <a href="fail-page.html" class="list-group-item list-group-item-action" rel="noopener">Nuuk GL •
                             Centrum • 28th
                             June 2021 • 22h00</a>
-                        <a href="fail-page.html" class="list-group-item list-group-item-action" rel="noopener">London UK
-                            • O2 Arena •
-                            10th July 2021 • 22h00</a>
+                        <a href="fail-page.html" class="list-group-item list-group-item-action" rel="noopener">New York USA
+                            • Madison Qu. Garden • 31st
+                            July 2021 • 22h00</a>
                     </div>
                 </div>
             </div>
@@ -227,8 +229,7 @@
                 <div class="modal-body">
                     <form class="px-4 py-3">
                         <div class="form-group">
-                            <label for="fullname">Please add any further comments here!
-                                get back to you.</label>
+                            <label for="fullname">If you have not heard back from us you can call us at +46 555 METAL.</label>
                             <input type="text" class="form-control" id="fullname" placeholder="Full Name" required />
                         </div>
                         <div class="form-group">
@@ -239,7 +240,7 @@
                             <textarea name="comments" rows="3" class="form-control"
                                 placeholder="Please add any further enquires here!" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn--mdl">Subit to the King!</button>
+                        <button type="submit" class="btn btn--mdl">Submit to the King!</button>
                         <div>
                         </div>
                     </form>
@@ -279,7 +280,7 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"

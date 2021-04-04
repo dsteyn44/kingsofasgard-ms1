@@ -342,6 +342,18 @@ h1{
     margin-top: 70px;
 }
 
+#fan-mail {
+    height: 200px;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.fan-quote p{
+    color: rgb(135, 140, 175);
+} 
 /*-------Cool Stuff-------*/
 
 .bg-card-cool {
