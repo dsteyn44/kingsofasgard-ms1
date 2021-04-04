@@ -39,7 +39,7 @@ button span i:hover {
 .nav-link, .dropdown-item, .nav-item {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -47,7 +47,7 @@ button span i:hover {
 .nav-link, .dropdown-item, .nav-item,
 .nav-link, .dropdown-item, .nav-item:focus,
 .nav-link, .dropdown-item, .nav-item:active,
-.nav-link, .dropdown-item, .nav-item:focusß {
+.nav-link, .dropdown-item, .nav-item:focus {
     outline: none;
     border: none;
     box-shadow: none;
@@ -78,9 +78,6 @@ button span i:hover {
 
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
@@ -90,7 +87,7 @@ button span i:hover {
 /*-------Overflow: Auto----*/
 
 #space-container {
-    height: 400px;
+    height: 300px;
 }
 
 .jumbotron {
@@ -113,7 +110,8 @@ button span i:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0;
     justify-content: center;
-    padding: 10, 0, 10, 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .gig-display {
@@ -185,7 +183,7 @@ button span i:hover {
 /*-------Band-------*/
 .intro-band-header h1{
     color: rgba(224, 172, 26);
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 400;
     text-align: center;
     text-emphasis: none;
@@ -219,10 +217,13 @@ button span i:hover {
     border-radius: 0;
     border: none;
     background-color: rgba(224, 172, 26, 0.6);
-    padding: 15px 15px 0 15px;
+    padding: 10px 10px 0 10px;
     margin: auto 0;
     min-width: 100%;
     min-height: 100%;
+}
+.card-text {
+    text-align: center;
 }
 
 section {
@@ -239,7 +240,6 @@ a:hover {
   color: ivory;
 }
 
-/*-------The Legend-------*/
 /*-------Footer-------*/
 .bg-footer-color {
     background-color: rgba(0, 0, 0, 0.8);
@@ -267,7 +267,7 @@ a:hover {
 
 .media-links li a i {
     color: rgba(224, 172, 26);
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     text-align: center;
     min-height: 50px;
@@ -289,7 +289,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    background: rgb(135, 140, 175);
+    background: rgb(135, 140, 175, 0.8);
     border: none;
     border-radius: 0;
 }
@@ -315,9 +315,6 @@ a:hover {
 
 .bg-fan-container {
     background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
@@ -334,10 +331,11 @@ a:hover {
 
 h1{
     color: rgb(135, 140, 175);
-    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
     font-weight: 400;
     text-align: center;
-    text-emphasis: none;
+    text-transform: none;
 }
 
 #fan-header-margin {
@@ -346,5 +344,33 @@ h1{
 
 /*-------Cool Stuff-------*/
 
-/*-------Our Army-------*/
+.bg-card-cool {
+    background-color: rgb(135, 140, 175);
+}
+
+.card-cool-text {
+    text-align: center;
+}
+
+
+/*-------Skål-------*/
+
+#fan-return-text a {
+    color: rgb(135, 140, 175);
+    padding-top: 10px;
+}
+
+/*-------fanwall-footer-------*/
+.media-links-cool li a i {
+    color: rgb(135, 140, 175);
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.media-links-cool li a i:hover {
+    color: ivory;
+}
 /*-------Fail Page-------*/
