@@ -32,7 +32,7 @@ button span i {
    color: rgba(224, 172, 26);
 }
 
-button span i:hover {
+button span svg:hover {
    color: ivory;
 }
 
@@ -180,6 +180,9 @@ button span i:hover {
     border-radius: 0;
 }
 
+.song-container-size {
+    margin-top: 20px;
+}
 /*-------Band-------*/
 .intro-band-header h1{
     color: rgba(224, 172, 26);
@@ -216,7 +219,7 @@ button span i:hover {
     color: ivory;
     border-radius: 0;
     border: none;
-    background-color: rgba(224, 172, 26, 0.6);
+    background-color: transparent;
     padding: 10px 10px 0 10px;
     margin: auto 0;
     min-width: 100%;
@@ -314,7 +317,7 @@ a:hover {
 
 
 .bg-fan-container {
-    background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
+    background: url('../assets/images/blur-joa-band.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
@@ -346,30 +349,60 @@ h1{
     height: 200px;
     width: 90%;
     padding: 0.5rem;
-    margin: 1.5rem 0 0 15px;
-    justify-content: center;
+    margin: 15px;
     overflow: scroll;
 }
 
-.fan-quote p{
+.fan-quote p {
     color: rgb(135, 140, 175);
 } 
+
+.fan-quote h4 {
+    color: rgb(135, 140, 175);
+    text-align: center;
+} 
+
+.fan-quote img {
+    text-align: center;
+} 
+
+.bg-quote-container {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
 /*-------Cool Stuff-------*/
 
 .bg-card-cool {
-    background-color: rgb(135, 140, 175);
+    background-color: rgba(135, 140, 175);
 }
 
-.card-cool-text {
+.card-cool-text p {
+    color: ivory;
     text-align: center;
+    font-size: 20px;
 }
-
 
 /*-------Skål-------*/
 
+.intro-skal-header h1 {
+    color: ivory;
+    padding-top: 10px
+}
+
+.intro-skal-text {
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bg-skal-container {
+    background-color: rgba(135, 140, 175);
+}
+
 #fan-return-text a {
-    color: rgb(135, 140, 175);
-    padding-top: 10px;
+    color:  ivory;  
 }
 
 /*-------fanwall-footer-------*/
