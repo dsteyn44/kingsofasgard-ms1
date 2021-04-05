@@ -4,6 +4,7 @@ This is essentially a website for a real nordic melodic death metal band in Swed
 In this case it is a story of the King of Asgård that comes down and lands on earth to start a death Metal band. He meets the band members in a bar in a small Swedish Town. The site would also include a page called "the fanwall", which would serve as a social media website for fans of all kinds of metal music and also fantasy fans perhaps. 
 
 The story line would serve both fans of death metal (who would not necessily be fans of fantasy books )and fantasy fans (who would not necessrily be death metal fans). 
+You can visit the deployed website [here](https://dsteyn44.github.io/kingsofasgard-ms1/).
 
  
 ## UX
@@ -13,7 +14,7 @@ The story line would serve both fans of death metal (who would not necessily be 
  Target market: 
  This website would generally serve fans death metal ansd eventually fantasy or norse mythology fans. Ages with following the band would range from 18 years of age to 99. All sexes and persons from cultural backgrounds would be welcome dependent on their tastes. 
 
-#### Client User Stories
+#### Client Goals
 - As a client I want set-up a website so that it will bring like-minded people together.
 - As a client I want a better platform so that I can increase my fan base.
 - As a client I want my users to easily navigate my site so that they have a better user experience and therefore will continue to visit.
@@ -60,7 +61,6 @@ The Band Page
 
 The Fanwall
 - the header must reflect the page where you are at ie. the color must be different. 
-
 - Must have the latest song as a snippet.
 - Overall color must be different to front page so that you can distinguish the difference. 
 - Must have a scroll bar with quotes form fans. This will be added by marketing.
@@ -81,8 +81,8 @@ Fail- page
 #### Features Left to Implement
 - Story page or graphic novel page. 
 - Add tooltips to Sign Up and Gig- lists and navbardrop-downs to give a bit of an explanation with out taking up too much real estate.
-- Add a more extensive "twitter" like page.
-- must add music video to fanwall. 
+- Add a more extensive "twitter" like page, where fans can post.
+- Must add music video to fanwall. 
 - Cool stuff will eventually become a store.
 
 
@@ -95,35 +95,7 @@ Fail- page
 
 
 ### Skeleton:
-wire frames below:
-
-![Desktop Home](desktop-home.png)
-Format: ![Desktop Home]
-
-![Desktop Fan Wall](..wireframes/desktop-fan-wall.png)
-Format: ![Alt Text]
-
-![Desktop Fail Page](../wireframes/desktop-fail.png)
-Format: ![Alt Text]
-
-![Tablet Home Page]](/wireframes/logo.png)
-Format: ![Alt Text]
-
-![Tablet Fan Wall](/wireframes/logo.png)
-Format: ![Alt Text]
-
-![Tablet Fail Page](/wireframes/logo.png)
-Format: ![Alt Text]
-
-![Mobile Home Page](/wireframes/logo.png)
-Format: ![Alt Text]
-
-![Mobile Fan Wall Page](/images/logo.png)
-Format: ![Tablet Home Page(url)
-
-![Mobile Fail Page](/images/logo.png)
-Format: ![Alt Text](url)
-
+The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following link: [wireframes](https://github.com/daniel44/First-milestone-project/tree/master/wireframes).
 
 ### Surface:
 #### Colours
@@ -151,9 +123,9 @@ Fail page
 
 ## Technologies Used
 
-- HTML 5 - this is standard
+- [HTML 5]() - this is standard
 - CSS 3
-- BOOTSTRAP 4.1.3 [Gitpod] (www.gitpod.com)
+- [BOOTSTRAP 4.1.3](https//bootstrrap.com)- this was used for the modals, grid layout
 - JAVASCRIPT - This was used for the modals.
 - GOOGLE FONTS - I added this the font that i used through out
 - FONT AWESOME - I used this for all my icons eg: social links etc. [Font Awesome] (www.gitpod.com)
@@ -176,28 +148,28 @@ To be added ...
 
 ### This project is hosted in GitHub Pages
 
-On the menu on the top of the project’s repository on GitHub select Settings.
-Scroll down to the GitHub Pages section.
-Inside that section, click on the drop-down menu under Source and select Master Branch.
-The page refreshes automatically and the website is now deployed.
-The link to the webpage is just in the GitHub Pages section down below.
-Only one branch has been used for this project.
+- On the menu on the top of the project’s repository on GitHub select Settings.
+- Scroll down to the GitHub Pages section.
+- Inside that section, click on the drop-down menu under Source and select Master Branch.
+- The page refreshes automatically and the website is now deployed.
+- The link to the webpage is just in the GitHub Pages section down below.
+- Only one branch has been used for this project.
 
 To run the project locally you can click on the following - [Daniel Steyn] 
 
 ### To clone this project from GitHub:
 
-Under the repository’s name, click Clone or download.
-In the Clone with hTTPS section, copy the given URL.
-In your IDE of choice, open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL copied from GitHub.
-Press enter and the local clone will be created.
+- Under the repository’s name, click Clone or download.
+- In the Clone with hTTPS section, copy the given URL.
+- In your IDE of choice, open Git Bash.
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL copied from GitHub.
+- Press enter and the local clone will be created.
 
 ## Credits
 
 ### Content
-- Most of the content I got I sourced from the band's on .
+- Most of the content I got I sourced from the band's page on facebook .
 
 ### Media
 - Images used in this site were obtained from either google or from the groups's page on facebook.

@@ -7,6 +7,7 @@ body {
 }
 
 /*-------Header-------*/
+
 .bg-navbar {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -43,7 +44,6 @@ button span svg:hover {
     font-weight: 600;
 }
 
-
 .nav-link, .dropdown-item, .nav-item,
 .nav-link, .dropdown-item, .nav-item:focus,
 .nav-link, .dropdown-item, .nav-item:active,
@@ -52,7 +52,6 @@ button span svg:hover {
     border: none;
     box-shadow: none;
 }
-
 
 /*-------Stack Overflow-------*/
 .navbar-toggler,
@@ -162,7 +161,6 @@ button span svg:hover {
     background: ivory;
 }
 
-
 .btn--mdl {
     color:ivory;
     font-size: 15px;
@@ -171,6 +169,7 @@ button span svg:hover {
     border: none;
     border-radius: 0;
 }
+
 /*-------Stack Overflow-------*/
 .dropdown-item-font {
     font-family: 'Roboto', sans-serif;
@@ -188,15 +187,29 @@ button span svg:hover {
  background-color: rgba(0, 0, 0, 0.8);
 }
 
+.col-margin {
+    margin-left: 0;
+}
+
+@media (min-width: 576px) { 
+
+    .col-margin {
+    margin-left: 15px;
+}
+}
+
 .modal {
     font-family: 'Roboto', sans-serif;
     border-radius: 0;
 }
+
 .clearfix {
     overflow: auto;
     content: "center";
 }
+
 /*-------Band-------*/
+
 .intro-band-header h1{
     color: rgba(224, 172, 26);
     font-size: 35px;
@@ -334,7 +347,7 @@ a:hover {
 }
 
 .bg-fan-container {
-    background: url('../images/blur-joa-band.jpg') no-repeat center center;
+    background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
@@ -370,6 +383,8 @@ h1{
 
 #fan-header-margin {
     margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #fan-mail {
@@ -377,7 +392,6 @@ h1{
     width: 90%;
     padding: 10px;
     margin: 15px;
-    overflow: scroll;
 }
 
 .fan-quote p {
@@ -396,11 +410,13 @@ h1{
 .bg-quote-container {
 background-color: rgba(0, 0, 0, 0.8);
 margin-top: 20px;
-padding: 10px;
+min-height: 85%;
+padding: 30px;
 }
 
 .fanmail-container {
 margin-top: 10px;
+min-height: 100px;
 }
 
 /*-------Cool Stuff-------*/
