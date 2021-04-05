@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Kings of Asgård</title>
+    <title>The Fail Page</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-navbar nav-container">
         <a class="navbar-brand" href="index.html" rel="noopener"><img src="assets/images/koa-bandlogo.jpg"
                 alt="king-of-asgard-band_logo" width="210" height="70"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        <button id="fail-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fas fa-water"></i></span>
         </button>
@@ -45,50 +45,35 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
                         <a class="dropdown-item" href="fanwall.html" rel="noopener">The Fanwall</a>
                         <hr>
-                        <a class="dropdown-item" href="fanwall.html#cool-Stuff" rel="noopener">Cool Stuff</a>
+                        <a class="dropdown-item" href="fanwall.html#cool-stuff" rel="noopener">Cool Stuff</a>
                         <hr>
                         <a class="dropdown-item" href="fanwall.html#skal" rel="noopener">Skål!</a>
                     </div>
                 </li>
                 <li class="nav-item ">
-                    <button type="button" class="btn btn--cct" data-toggle="modal" data-target="#contactModal">
+                    <button type="button" class="btn btn--red" data-toggle="modal" data-target="#contactModal">
                         Contact Us!
                     </button>
                 </li>
             </ul>
         </div>
     </nav>
-    <!--Call Out-->
-    <div class="container-fluid bg-front-container">
+    <!--Fail-->
+    <div class="container-fluid bg-fail-front-container">
         <div class="row">
             <div class="col" id="space-container">
-            </div>
-        </div>
-        <div>
-            <div class="row">
-                <div class="col-sm-8">
                 </div>
-                <div class="d-none d-sm-block col-sm-4 ml-auto" id="gig-container">
-                    <div class="jumbotron">
-                        <h4 class="gig-display">The Gig Guide</h4>
-                        <p id="lead">Check out where we are playing next!</p>
-                        <button type="button" class="btn btn--jbt" data-toggle="modal" data-target="#gigModal">Rock
-                            Here!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
-            <div class="d-none d-sm-block mx-auto col-sm-12" style="width: 100%;">
-                <div class="gig-jumbotron">
+            <div class="col-sm-12" style="width: 100%;">
+                <div class="fail-jumbotron">
                     <h1><strong>Oops! It looks like our realm has been overtaken by a mysterious illness. Unfortunately we are unable to travel at this time.</strong></h1>
-                    <p>In the meantime you can watch a clip form </p>
+                    <p>In the meantime you can watch a clip </p>
                     <video src="https://www.youtube.com/watch?v=APHovhbc7KY" width="500" autoplay muted loop controls></video>
                     <p><small>To be added into the draw.</small></p>
                 </div>
             </div>
-
             </div>
+        </div>
         </div>
     <!--Footer-->
     <footer id="foot-container" class=" container-fluid bg-footer-color">
@@ -96,7 +81,7 @@
             <div class="col-sm-2">
             </div>
             <div class="col-sm-8">
-                <ul class="list-inline media-links">
+                <ul class="list-inline fail-media-links">
                     <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i
                                 class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
                     </li>

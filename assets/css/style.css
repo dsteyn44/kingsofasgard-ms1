@@ -74,14 +74,18 @@ button span svg:hover {
     border-radius: 0;
 }
 
+.btn--cct:hover {
+    color: rgb(224, 172, 26);
+    background: ivory;
+}
 /*-------front-------*/
 
 .bg-front-container {
-    background: url('../images/koa-band.jpg') no-repeat center center fixed;
+    background: url('../images/koa-band.jpg') no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /*-------Overflow: Auto----*/
@@ -98,6 +102,8 @@ button span svg:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0;
     justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -182,7 +188,6 @@ button span svg:hover {
 .clearfix {
     overflow: auto;
     content: "center";
-    background: transparent;
 }
 /*-------Band-------*/
 .intro-band-header h1{
@@ -298,6 +303,11 @@ a:hover {
     border-radius: 0;
 }
 
+.btn--fancct:hover {
+    color: rgb(135, 140, 175);
+    background:ivory;
+}
+
 .btn--nsu {
     color: ivory;
     font-size: 15px;
@@ -316,9 +326,8 @@ a:hover {
     box-shadow: none;
 }
 
-
 .bg-fan-container {
-    background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
+    background: url('../images/blur-joa-band.jpg') no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
@@ -342,6 +351,16 @@ h1{
     text-transform: none;
 }
 
+#fan-button span i {
+   font-size: 30px;
+   text-align: center;
+   color: rgb(135, 140, 175);
+}
+
+#fan-button span i:hover {
+   color: ivory;
+}
+
 #fan-header-margin {
     margin-top: 70px;
 }
@@ -349,7 +368,7 @@ h1{
 #fan-mail {
     height: 200px;
     width: 90%;
-    padding: 0.5rem;
+    padding: 10px;
     margin: 15px;
     overflow: scroll;
 }
@@ -369,6 +388,12 @@ h1{
 
 .bg-quote-container {
 background-color: rgba(0, 0, 0, 0.8);
+margin-top: 20px;
+padding: 10px;
+}
+
+.fanmail-container {
+margin-top: 10px;
 }
 
 /*-------Cool Stuff-------*/
@@ -420,3 +445,83 @@ background-color: rgba(0, 0, 0, 0.8);
     color: ivory;
 }
 /*-------Fail Page-------*/
+.bg-fail-front-container {
+    background: url('../images/forest.jpg') no-repeat center center fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 1000px;
+    overflow: auto;
+}
+
+
+.fail-jumbotron {
+    color:rgb(231, 65, 24);
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 575.98px) { 
+
+.fail-jumbotron {
+    max-width: 100%;
+}
+
+.fail-jumbotron h1 {
+    color:rgb(231, 65, 24);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+.fail-jumbotron h1 {
+    color:rgb(231, 65, 24);
+     padding-left: 10px;
+    padding-right: 10px;
+}
+
+#fail-button span i {
+   font-size: 30px;
+   text-align: center;
+   color:  rgb(231, 65, 24);
+}
+
+#fail-button span i:hover {
+   color: ivory;
+}
+
+.fail-media-links li a i {
+    color: rgb(231, 65, 24);
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.fail-media-links li a i:hover {
+    color: ivory;
+}
+
+.btn--red {
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background:rgb(231, 65, 24);
+    border: none;
+    border-radius: 0;
+}
+
+.btn--red:hover {
+    color:rgb(231, 65, 24);
+    background:ivory;
+}

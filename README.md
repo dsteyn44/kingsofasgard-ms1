@@ -48,9 +48,7 @@ The Footer
 
 
 Front Page
-
 - Background is menacing picture of the band . Has overflow to give a scroling effect.
-
 - Gig-list includes a call-to-action pop-up modal that will lead the user to a gig-list where they can choose to click on that takes them to a page for purchase. Must be central on the page. Will be moved to icon for mobile devices. 
 - Sign-up & win includes a call-to-action pop-up modal that will lead the user to a sign-up sheet. To make it more fun - it will include a question about the band so that the user will go band to the band page. Users can sign up and stand in line to win a guitar.
 - A music snippet of the best song to entice peole to listen further and navigate the site. This should be on the lower left hand corner. Altogether all features on the front page will be at a postive gradient to instill a positive feel.
@@ -71,8 +69,11 @@ Cool Stuff
 - must have merchandise for sale that fans can purchase through a click.
 - must be linked to the rest of the website.
 
-Skål
--Essentially a gallery with pictures from the band, their travels and fans.
+Skål Page
+- Essentially a gallery with pictures from the band, their travels and fans.
+
+Fail- page
+- This page is to 
 
 
 #### Features Left to Implement
@@ -87,40 +88,51 @@ Skål
 
 - Must be able to go where you want to within 3 clicks.
 - Utilize "hamburger" bar to allow formore real estate.
-- 
+- Used morew of a mixture between linear structure and 
 
 
 ### Skeleton:
-This section is also where you would share links to any wireframes, mockups, diagrams etc.
+wire frames below
 
 
 ### Surface:
-
 #### Colours
-- Yellow
+
+Front page
 - Black
+- Yellow
+
+Fanwall page
 - A lilac
 
+Fail.page
+- Red
+- Black
 
-####Typogrphy
+#### Typogrphy
 
-- at first i was using Amatic SC with Roboto as second but then I noticed that  
+- At first I was using Amatic SC with Roboto as second but then I noticed that  
+
+#### Images
+- mostly black and white images were used so as to go with the theme of the 
  
 
 ## Technologies Used
 
 - HTML 5
 - CSS 3
-- BOOTSTRAP 4.1.3
+- BOOTSTRAP 4.1.3 [Gitpod] (www.gitpod.com)
+- JAVASCRIPT
 - GOOGLE FONTS
-- FONT AWESOME
+- FONT AWESOME - I used this for all my icons eg: social links etc. [Font Awesome] (www.gitpod.com)
 - AFFINITY DESIGNER
-- AFFINITY PHOTO
-- GITHUB
-- GITPOD
-- MOUNTAIN GOAT 
-- PAGES 
-- W3 
+- AFFINITY PHOTO This helped me so some 
+- GITHUB - This is the storage program for the project [Github] (www.github.com)
+- GITPOD - This was use to produce the project [Gitpod] (www.gitpod.com)
+- MOUNTAIN GOAT - This was used to understand user stories. [mountain goat] (www.mountaingoat.com)
+- PAGES - Apple generic  
+- W3 SCHOOLS - I Found this very useful for clarification of clearfix amongst 
+- STACK OVERFLOW - found many
 
 
 ## Testing
@@ -167,8 +179,9 @@ Type git clone, and then paste the URL copied from GitHub.
 Press enter and the local clone will be created.
 
 ## Credits
+The real King of AsgÅrd 
 
-Content
+### Content
 Most of the text in this site was made up by myself for this project.
 
 I got the menu from an Italian restaurant's website and I just did a few modifications.
@@ -177,12 +190,10 @@ I also took Bootstrap's collapsible navbar and modified it for this project.
 
 I took inspiration from W3Schools to make the restaurant's menu a dropdown for better UX on smaller devices.
 
-6.2. Media
-The pictures used in this site were obtained from Pixabay and Freepik.
+### Media
+- Images used in this site were obtained from Pixabay and Freepik.
 
-6.1. Acknowledgments
-Precious Ijege for the mentor guidance and support.
-
-The Code Institute tutor team, and specially Scott, for their help and patience.
-
-Emmet, Lucia, Marina for their feedback, their help with the testing on their personal devices, the spelling check in both English and Italian and also for their emotional support.
+### Acknowledgments
+- Precious Ijege for the mentor guidance and support.
+- The Code Institute tutor team, and specially Jo, for their help and patience.
+- Everyone on Slack especially the mini_feb_group for their support.
