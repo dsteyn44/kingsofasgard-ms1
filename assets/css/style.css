@@ -179,9 +179,10 @@ button span svg:hover {
     font-family: 'Roboto', sans-serif;
     border-radius: 0;
 }
-
-.song-container-size {
-    margin-top: 20px;
+.clearfix {
+    overflow: auto;
+    content: "center";
+    background: transparent;
 }
 /*-------Band-------*/
 .intro-band-header h1{
@@ -317,7 +318,7 @@ a:hover {
 
 
 .bg-fan-container {
-    background: url('../assets/images/blur-joa-band.jpg') no-repeat center center fixed;
+    background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
     height: 1000px;
