@@ -17,17 +17,17 @@ The story line would serve both fans of death metal (who would not necessily be 
 - As a client I want set-up a website so that it will bring like-minded people together.
 - As a client I want a better platform so that I can increase my fan base.
 - As a client I want my users to easily navigate my site so that they have a better user experience and therefore will continue to visit.
-- As a client I want eye catching visiuals so that the first time users will want to  
+- As a client I want the website to have room to evolve so that I will have a repeat fanbase that is not necessarily 
+- As a client I want eye catching visiuals so that the first time users will want to wnt to investigat further. 
 
 #### First time User Stories
 - As a first time User I want to be able to hear the bands music on the first page so that that I decide to follow.
 - As a first time User I want to see where they are playing and the dates so I can see if i am  able to go view the concert.
-- As a first time User I want to see what the band is about, who they are so .
+- As a first time User I want to see what the band is about, who they are so.
 - As a first time User I want to navigate easily throughout the site so that I can get to the pages efficently. 
 
 #### Frequent User
-- As a frequent user i want 
-
+- As a frequent user I want updates so that i can visit the website and it will keep me interested.
 
 #### Festival organiser/ Concert organiser
 - As festival organiser/ Concert organiser I want to efficently contact them.
@@ -66,14 +66,16 @@ The Fanwall
 - Must have a scroll bar with quotes form fans. This will be added by marketing.
 
 Cool Stuff
-- must have merchandise for sale that fans can purchase through a click.
-- must be linked to the rest of the website.
+- Must have merchandise for sale that fans can purchase through a click.
+- Must be linked to the rest of the website.
+- Must have prices on so users can see.
+- This will evolve into a store.
 
 Skål Page
 - Essentially a gallery with pictures from the band, their travels and fans.
 
 Fail- page
-- This page is to infomr the user that they have reached a 
+- This page is to inform the user that they have reached an empass but will be able to safely get back to the home page.
 
 
 #### Features Left to Implement
@@ -87,8 +89,9 @@ Fail- page
 ### Structure:
 
 - Must be able to go where you want to within 3 clicks.
-- Utilize "hamburger" bar to allow formore real estate.
-- Used morew of a mixture between linear structure and 
+- Utilize "hamburger" bar to allow for more real estate.
+- Used morew of a mixture between linear structure.
+- The use of media queries so that the 
 
 
 ### Skeleton:
@@ -126,19 +129,21 @@ Format: ![Alt Text](url)
 #### Colours
 
 Front page
-- Black
-- Yellow
+- Black -  rgba(0, 0, 0, 0.8) this is cliche but pretty much the standard bearer tone. I was using a grey prior but it was too light. For the header and foorter I decided to go with with a more transparent overlay so atht athe user can see what is under as a hint.
+- Yellow - rgba(224, 172, 26)
+- Ivory - I wanted an off white but something warmer. 
 
 Fanwall page
-- A lilac
+- Lilac - rgb(135, 140, 175) This was a color on the spotify music audio bar and i used it so that there would be some corrolation between the first page and the second.
+- Ivory - Just to keep every thing consistent. 
 
-Fail.page
-- Red
+Fail page
+- Red - general warning color and a good color to go with the black. 
 - Black
 
 #### Typogrphy
 
-- At first I was using Amatic SC with Roboto as second but then I noticed that  
+- At first I was using Amatic SC with Roboto as second but then I noticed that Amatic was very thin and not easily noticible. 
 
 #### Images
 - mostly black and white images were used so as to go with the theme of the 
@@ -146,44 +151,28 @@ Fail.page
 
 ## Technologies Used
 
-- HTML 5
+- HTML 5 - this is standard
 - CSS 3
 - BOOTSTRAP 4.1.3 [Gitpod] (www.gitpod.com)
-- JAVASCRIPT
-- GOOGLE FONTS
+- JAVASCRIPT - This was used for the modals.
+- GOOGLE FONTS - I added this the font that i used through out
 - FONT AWESOME - I used this for all my icons eg: social links etc. [Font Awesome] (www.gitpod.com)
 - AFFINITY DESIGNER
-- AFFINITY PHOTO This helped me so some 
+- AFFINITY PHOTO - This a helped me so some mock-ips and for the background images on the fail page. 
 - GITHUB - This is the storage program for the project [Github] (www.github.com)
 - GITPOD - This was use to produce the project [Gitpod] (www.gitpod.com)
 - MOUNTAIN GOAT - This was used to understand user stories. [mountain goat] (www.mountaingoat.com)
-- PAGES - Apple generic  
-- W3 SCHOOLS - I Found this very useful for clarification of clearfix amongst 
-- STACK OVERFLOW - found many
+- PAGES - Apple generic word processing  
+- W3 SCHOOLS - I Found this very useful for clarification of clearfix  and inline block 
+- STACK OVERFLOW - Used this for informaiotn concerning bootstrap over-rides, especially the 
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+To be added ...
 
 ## Deployment
-To deploy the project
+
 
 ### This project is hosted in GitHub Pages
 
@@ -194,7 +183,7 @@ The page refreshes automatically and the website is now deployed.
 The link to the webpage is just in the GitHub Pages section down below.
 Only one branch has been used for this project.
 
-To run the project locally
+To run the project locally you can click on the following - [Daniel Steyn] 
 
 ### To clone this project from GitHub:
 
@@ -206,21 +195,16 @@ Type git clone, and then paste the URL copied from GitHub.
 Press enter and the local clone will be created.
 
 ## Credits
-The real King of AsgÅrd 
 
 ### Content
-Most of the text in this site was made up by myself for this project.
-
-I got the menu from an Italian restaurant's website and I just did a few modifications.
-
-I also took Bootstrap's collapsible navbar and modified it for this project.
-
-I took inspiration from W3Schools to make the restaurant's menu a dropdown for better UX on smaller devices.
+- Most of the content I got I sourced from the band's on .
 
 ### Media
-- Images used in this site were obtained from Pixabay and Freepik.
+- Images used in this site were obtained from either google or from the groups's page on facebook.
 
 ### Acknowledgments
 - Precious Ijege for the mentor guidance and support.
 - The Code Institute tutor team, and specially Jo, for their help and patience.
-- Everyone on Slack especially the mini_feb_group for their support.
+- Everyone on Slack especially the mini_feb_group for their support. 
+- Karl Beckman, who is the lead singer for the band.
+- My wife Sofia and children August and Adam.
