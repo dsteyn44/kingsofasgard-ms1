@@ -73,7 +73,7 @@ Skål Page
 - Essentially a gallery with pictures from the band, their travels and fans.
 
 Fail- page
-- This page is to 
+- This page is to infomr the user that they have reached a 
 
 
 #### Features Left to Implement
@@ -92,7 +92,34 @@ Fail- page
 
 
 ### Skeleton:
-wire frames below
+wire frames below:
+
+![Desktop Home](desktop-home.png)
+Format: ![Desktop Home]
+
+![Desktop Fan Wall](..wireframes/desktop-fan-wall.png)
+Format: ![Alt Text]
+
+![Desktop Fail Page](../wireframes/desktop-fail.png)
+Format: ![Alt Text]
+
+![Tablet Home Page]](/wireframes/logo.png)
+Format: ![Alt Text]
+
+![Tablet Fan Wall](/wireframes/logo.png)
+Format: ![Alt Text]
+
+![Tablet Fail Page](/wireframes/logo.png)
+Format: ![Alt Text]
+
+![Mobile Home Page](/wireframes/logo.png)
+Format: ![Alt Text]
+
+![Mobile Fan Wall Page](/images/logo.png)
+Format: ![Tablet Home Page(url)
+
+![Mobile Fail Page](/images/logo.png)
+Format: ![Alt Text](url)
 
 
 ### Surface:

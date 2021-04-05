@@ -154,7 +154,14 @@ button span svg:hover {
     outline: none;
     border: none;
     box-shadow: none;
+    
 }
+
+.btn--jbt:hover {
+    color: rgba(224, 172, 26);
+    background: ivory;
+}
+
 
 .btn--mdl {
     color:ivory;
@@ -429,6 +436,10 @@ margin-top: 10px;
 
 #fan-return-text a {
     color:  ivory;  
+}
+
+.skal-gallery-size {
+    margin-top: 20px;
 }
 
 /*-------fanwall-footer-------*/
