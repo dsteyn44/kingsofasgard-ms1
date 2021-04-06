@@ -106,7 +106,7 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/).
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](wireframes/desktop-home.png)|[Home Page](wireframes/tablet-home.png)|[Home Page](wireframes/mobile-home.png)|
 |[The Fanwall Page](wireframes/desktop-fan-wall.png)|[The Fanwall Page](wireframes/tablet-fan-wall.png)|[The Fanwall Page](wireframes/mobile-fan-wall.png)|
-|[Fail Page](wireframes/desktop-fail-page.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile-fail-page.png)|
+|[Fail Page](wireframes/desktop-fail.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile-fail-page.png)|
 
 #
 ## Surface
@@ -150,7 +150,7 @@ I used a "Water" icon from Font Awesome; however I was actually aiming for somet
 - [W3 SCHOOLS](https://www.w3schools.com/) - I Found this very useful for clarification of clearfix  and inline block 
 - [STACK OVERFLOW](https://stackoverflow.com/) - It is gennerally public platform, mainly used for coming up with scripte solutions. 
 - [MDZN](https://developer.mozilla.org/) - Resource tool for developers, by developers. I used this to assist with resizing my images.
-- [CHROME DEVELOPER TOOLS](https://developers.google.com/web/tools/chrome-devtools) - this was used to test out resposnsiveness and just for general trouble-shooting. Gives you real time feedback.
+- [CHROME DEVELOPER TOOLS](https://developers.google.com/web/tools/chrome-devtools) - This was used to test out resposnsiveness and just for general trouble-shooting. Gives you real time feedback.
 - [RESPONSIVE WEB DESIGN](http://ami.responsivedesign.is/) - I used this to add to my mock-up for my README.md.
 
 #
@@ -187,7 +187,7 @@ View the testing [here](Testing.md).
 - Most of the content I got I sourced from the band's Facebook Page.
 
 ### Media
-- Images used in this site were obtained from either google or from the groups's page on facebook.i then modified some images in Affinity.
+- Images used in this site were obtained from either google or from the groups's page on facebook. I then modified some images in Affinity.
 - The music was taken from Spotify as the band did not have any Mp3 copies of the music. 
 
 ### Acknowledgments
