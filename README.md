@@ -1,4 +1,7 @@
+
 # King of Asgard 
+
+![mock-up](readme-files/mock-up.png)
 
 This is essentially a website for a real nordic melodic death metal band in Sweden call "King of Asgård" - with a bit if a twist. Since most death metal bands are pretty much the same; why should someone listen to their music? What does their music give of value? What besides the music keeps their fans coming back?
 In this case I try to anser that with a narrative or storyline of the King of Asgård that comes down and lands on earth to start a death Metal band. He meets the band members in a bar in a small Swedish Town. The site would also include a page called "The Fanwall", which would serve as a social media platform for fans of all kinds of metal music and also fantasy fans perhaps. 
@@ -98,7 +101,13 @@ Fail- page
 #
 
 ## Skeleton
-The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following link: [wireframes](https://github.com/daniel44/First-milestone-project/tree/master/wireframes).
+The wireframes were designed using [Balsamiq](https://balsamiq.com/). 
+   Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page](wireframes/desktop-home.png)|[Home Page](wireframes/tablet-home.png)|[Home Page](wireframes/mobile-home.png)|
+|[The Fanwall Page](wireframes/desktop-fan-wall.png)|[The Fanwall Page](wireframes/tablet-fan-wall.png)|[The Fanwall Page](wireframes/mobile/mobile-fan-wall.png)|
+|[Fail Page](wireframes/desktop-fail-page.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile/mobile-fail-page.png)|
+
 #
 ## Surface
 
@@ -117,7 +126,7 @@ Fail page
 - Red - rgb(231, 65, 24) general warning color and a good color to go with the black. 
 - Black (0, 0, 0, 0.8)
 
-#### Typogrphy
+#### Typography
 - At first I was using Amatic SC with Roboto as second but then I noticed that Amatic was very thin and not easily noticible so i have just opted for Roboto. However in the future this may change for say Shatter for some of the head lines as it gives it a more dramatic effect.
 I used a "Water" icon from Font Awesome; however I was actually aiming for something more nordic such as the symbol for Odin. This was a bit difficult to find and in the end I decided to stay with the same. 
 
@@ -127,12 +136,12 @@ I used a "Water" icon from Font Awesome; however I was actually aiming for somet
 
 ## Technologies Used
 
-- [HTML 5](https://en.wikipedia.org/wiki/HTML5) - this is standard programing language.
-- [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - this is standard programing language.
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5) - Standard programing language.
+- [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Standard programing language.
 - [BOOTSTRAP 4.1.3](https//bootstrrap.com)- Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites. This was used extenssively throughout the project for example the grid layout , navbarstructures, dropdown menus, jumbotrons, modals, and dispay (media)
 - [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript) - Programming language that conforms to the ECMAScript specification. This was used for the modals in conjuction with Bootstrap.
 - [GOOGLE FONTS](https://fonts.google.com/) - I added this the font that i used through out
-- [FONT AWESOME](https://fontawesome.com/) - I used this for all my icons eg: social links etc. [Font Awesome] (www.gitpod.com
+- [FONT AWESOME](https://fontawesome.com/) - I used this for all my icons eg: social links etc. 
 - [AFFINITY PHOTO](https://affinity.serif.com/en-us/) - This a helped me so some mock-ips and for the background images on the fail page.
 - [GITHUB](https://gitpod.io/) - IDE (Integrated Development Environment)
 - [GITPOD](github.com/) - The remote hosting platform.
@@ -148,7 +157,7 @@ I used a "Water" icon from Font Awesome; however I was actually aiming for somet
 
 ## Testing
 
-View the testing [here](Testing.md)
+View the testing [here](Testing.md).
 
 #
 ## Deployment
@@ -162,8 +171,6 @@ View the testing [here](Testing.md)
 - The page refreshes automatically and the website is now deployed.
 - The link to the webpage is just in the GitHub Pages section down below.
 - Only one branch has been used for this project.
-
-To run the project locally you can click on the following - [Daniel Steyn] 
 
 ### To clone this project from GitHub:
 
@@ -191,7 +198,5 @@ To run the project locally you can click on the following - [Daniel Steyn]
 - Ted Sjulmark - Guitar
 - Jonas Albrektsson- Bass
 - Mathias Westman - Drums
-
-
 - My wife Sofia and children August and Adam.
 #

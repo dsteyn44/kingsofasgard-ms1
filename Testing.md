@@ -22,7 +22,7 @@ Lighthouse:
 #
 ## Responsiveness
 
-I used four devices as my benchmarks - iPhone 5, iPhone X iPad Pro and iMac desktop. The main reason for this is that these are the plateforms that I have in my possesion. For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the front-page was clearly visible but when I uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
+For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the front-page was clearly visible but when I uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
 
 
 
@@ -52,6 +52,7 @@ Fanwall Page Spotify Sound control and Audio
 
 #### Client User Stories
 - As a client I want set-up a website so that it will bring like-minded people together.
+
 - As a client I want a better platform so that I can increase my fan base.
 - As a client I want my users to easily navigate my site so that they have a better user experience and therefore will continue to visit.
 - As a client I want the website to have room to evolve so that I will have a repeat fanbase that is not necessarily 

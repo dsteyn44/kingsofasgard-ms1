@@ -121,25 +121,6 @@ button span svg:hover {
 .gig-display {
     font-size: 36px;
 }
-
-@media (max-width: 575.98px) { 
-
-.gig-jumbotron {
-    font-size: 10px;
-}
-
-.gig-display {
-    font-size: 25px;
-}
-}
-
-.gig-list {
-    font-family: 'Amatic SC', sans-serif;
-    text-align: center;
-    font-weight: 700;
-    padding-left: 3px;
-    padding-right: 3px;
-}
  
 /*-------Front Sign-Up------*/
 
