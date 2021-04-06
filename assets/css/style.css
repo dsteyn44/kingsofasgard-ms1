@@ -90,12 +90,12 @@ button span svg:hover {
     overflow: hidden;
 }
 
-@media (max-width: 575.98px) { 
+@media (min-width: 575.98px) { 
 
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
     background-size: cover;
-    height: 75vh;
+    height: 120vh;
     min-width: 100%;
     overflow: hidden;
 }
