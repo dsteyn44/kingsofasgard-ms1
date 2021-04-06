@@ -177,10 +177,10 @@ To run the project locally you can click on the following - [Daniel Steyn]
 ## Credits
 
 ### Content
-- Most of the content I got I sourced from the band's page on facebook .
+- Most of the content I got I sourced from the band's Facebook Page.
 
 ### Media
-- Images used in this site were obtained from either google or from the groups's page on facebook.
+- Images used in this site were obtained from either google or from the groups's page on facebook.i then modified some images in Affinity.
 - The music was taken from Spotify as the band did not have any Mp3 copies of the music. 
 
 ### Acknowledgments
@@ -188,5 +188,10 @@ To run the project locally you can click on the following - [Daniel Steyn]
 - The Code Institute tutor team, and specially Jo, for their help and patience.
 - Everyone on Slack especially the mini_feb_group for their support. 
 - Karl Beckman, who is the lead singer for the band.
+- Ted Sjulmark - Guitar
+- Jonas Albrektsson- Bass
+- Mathias Westman - Drums
+
+
 - My wife Sofia and children August and Adam.
 #

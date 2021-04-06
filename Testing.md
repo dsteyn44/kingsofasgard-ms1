@@ -3,14 +3,15 @@
 ## Overview
 Generally I tested often and made it a regular habit to a) check my responsiveness on all devices, and b) vallidating the script. It was only then I would stage, commit and push. I also used repl.it to try pieces of code to assess whether it would work. I found this quite useful as it was quicker than gitpod and I could make mistakes without affecting my actual project. This did however take more time and I think in the future, I will just have to plan better. Also I tended to get caught up in one bug and this wasted precious time.That is something for the future.  
 
-It was a little challenging in regards to working with Bootstrap. Bootstrap is certainly great for having a structured template in place but admittedly I had challenges with the responsiveness and overiding its templates to suit my requirements. Also 
+The project was a little challenging in regards to working with Bootstrap. Bootstrap is certainly great tool for creating a structured template in place but admittedly I had challenges with the responsiveness and overiding its templates to suit my requirements. Admittedly this could be because I am by no means an expert at using the software so when you hit a snag it takes time to figure out where the problem lies. Generally and as mentioned in the coursework, in order to overide bootstrap, you have to be fairly specific.
 #
 ## Validators used: 
 - Jigsaw - I used this for CSS verification. [Jigsaw validator](https://jigsaw.w3.org/).
 - Nu W3 validator - I used this for HTML verification. [W3 validator](http:s//validator.w3.org/).
-- Lighthouse - I used this to check performance. However i have to be honest and say that there was alot I was unsure of but 
+- Lighthouse - I used this to check performance. However I have to be honest and say that there was alot I was unsure of but it was good to 
 
 Proof of final validation:
+
 HTML:
 
 CSS:
@@ -39,10 +40,11 @@ I grabbed another dropdown menu from another project.
 Contact Us dropdown toggle
 - I primarily had the Contact Us (Contact page) as a drop up page in the footer bar but when I made the screen smaller it would move above the social links. I was spending too much time trying to work this out so I opted to make it a drop-down in the navbar. I then noticed that in smaller sizes it would over expand the screen so you could not add any information or see the "submit button". I contacted tutor support and they suggested i go with a modal instead. It did solve the issue in a different way.
 
-Sound control and Audio 
+Front Page Spotify Sound control and Audio 
 - One of the features of the website would be to have a clip of music on the front page. At first I was unable to obtain a audio clip from the band but instead I copied my own version of the song onto gitpod form iTunes. And although this worked at first it a) took up too much space and b) did not always play. So I then decided to use a clip from spotify. Even though 
 
-- 
+Fanwall Page Spotify Sound control and Audio
+- This was moving towards the right-hand side 
 #
 
 ## User stories

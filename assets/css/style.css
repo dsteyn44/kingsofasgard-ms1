@@ -2,11 +2,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: darkslategrey;
     font-weight: 400;
 }
 
-/*-------Header-------*/
+/*-------Header/ Navbar-------*/
 
 .bg-navbar {
     background-color: rgba(0, 0, 0, 0.8);
@@ -54,6 +53,7 @@ button span svg:hover {
 }
 
 /*-------Stack Overflow-------*/
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -62,6 +62,8 @@ button span svg:hover {
     border: none;
     box-shadow: none;
 }
+
+/*-------Contact Us Modal-------*/
 
 .btn--cct {
     color: ivory;
@@ -77,7 +79,8 @@ button span svg:hover {
     color: rgb(224, 172, 26);
     background: ivory;
 }
-/*-------front-------*/
+
+/*-------Front Page-------*/
 
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
@@ -91,29 +94,17 @@ button span svg:hover {
 
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
-    background-size: 1200px;
+    background-size: 1300px;
 }
 }
 
-/*-------Overflow: Auto----*/
+/*-------Front Page Space Div-------*/
 
 #space-container {
     height: 300px;
 }
 
-.jumbotron {
-    color: rgba(224, 172, 26);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 0;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+/*-------Front Gig Guide------*/
 
 .gig-jumbotron {
     color: rgba(224, 172, 26);
@@ -140,6 +131,30 @@ button span svg:hover {
 .gig-display {
     font-size: 25px;
 }
+}
+
+.gig-list {
+    font-family: 'Amatic SC', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+ 
+/*-------Front Sign-Up------*/
+
+.jumbotron {
+    color: rgba(224, 172, 26);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .jumbotron a {
@@ -178,31 +193,43 @@ button span svg:hover {
     border-radius: 0;
 }
 
-/*-------Stack Overflow-------*/
 .dropdown-item-font {
     font-family: 'Roboto', sans-serif;
 }
 
-.gig-list {
-    font-family: 'Amatic SC', sans-serif;
-    text-align: center;
-    font-weight: 700;
-    padding-left: 3px;
-    padding-right: 3px;
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-backdrop {
- background-color: rgba(0, 0, 0, 0.8);
+/*-------Front Audio Clip------*/
+
+.audio-jumbotron {
+    color: rgba(224, 172, 26);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.audio-jumbotron p a {
+    color: ivory;
 }
 
 .col-margin {
     margin-left: 30px;
 }
 
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
 
-    .col-margin {
-    margin-left: 0;
+.audio-jumbotron {
+    margin-top: 20px;
+    margin-left: 10px;
 }
 }
 
@@ -216,7 +243,7 @@ button span svg:hover {
     content: "center";
 }
 
-/*-------Band-------*/
+/*-------Band Page-------*/
 
 .intro-band-header h1{
     color: rgba(224, 172, 26);
@@ -268,6 +295,9 @@ section {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+/*-------Return Home button------*/
+
 #return-text a {
     color: rgba(224, 172, 26);
     padding-top: 10px;
@@ -277,7 +307,8 @@ a:hover {
   color: ivory;
 }
 
-/*-------Footer-------*/
+/*-------Footer Front Page-------*/
+
 .bg-footer-color {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -319,7 +350,8 @@ a:hover {
 .media-links li a i:hover {
     color: ivory;
 }
-/*-------Fanwall-------*/
+
+/*-------Fanwall Contact Button-------*/
 
 .btn--fancct {
     color: ivory;
@@ -335,6 +367,8 @@ a:hover {
     color: rgb(135, 140, 175);
     background:ivory;
 }
+
+/*-------Fanwall Navbar-------*/
 
 .btn--nsu {
     color: ivory;
@@ -353,6 +387,8 @@ a:hover {
     border: none;
     box-shadow: none;
 }
+
+/*-------Fanwall main Page-------*/
 
 .bg-fan-container {
     background: url('../images/blur-joa-band.jpg') no-repeat center center fixed;
@@ -377,6 +413,15 @@ h1{
     font-weight: 400;
     text-align: center;
     text-transform: none;
+}
+
+/*-------Stack overflow solution-------*/
+
+#audio-quote iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #fan-button span i {
@@ -416,18 +461,18 @@ h1{
 } 
 
 .bg-quote-container {
-background-color: rgba(0, 0, 0, 0.8);
-margin-top: 20px;
-min-height: 85%;
-padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    min-height: 85%;
+    padding: 30px;
 }
 
 .fanmail-container {
-margin-top: 10px;
-min-height: 100px;
+    margin-top: 10px;
+    min-height: 100px;
 }
 
-/*-------Cool Stuff-------*/
+/*-------Cool Stuff Page-------*/
 
 .bg-card-cool {
     background-color: rgba(135, 140, 175);
@@ -439,7 +484,7 @@ min-height: 100px;
     font-size: 20px;
 }
 
-/*-------Skål-------*/
+/*-------Skål Page-------*/
 
 .intro-skal-header h1 {
     color: ivory;
@@ -487,10 +532,9 @@ min-height: 100px;
     background: url('../images/forest.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
-    height: 1000px;
-    overflow: auto;
+    height: 1200px;
+    overflow: hidden;
 }
-
 
 .fail-jumbotron {
     color:rgb(231, 65, 24);
