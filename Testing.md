@@ -1,19 +1,49 @@
 #  Testing Ground
 
-### With this project it was really challenging in regards to responsiveness and overiding its templates. Even thopugh bootstrap is supposed to be very reliable and it generally is it was
+## Overview
+Generally I tested often and made it a regular habit to a) check my responsiveness on all devices, and b) vallidating the script. It was only then I would stage, commit and push. I also used repl.it to try pieces of code to assess whether it would work. I found this quite useful as it was quicker than gitpod and I could make mistakes without affecting my actual project. This did however take more time and I think in the future, I will just have to plan better. Also I tended to get caught up in one bug and this wasted precious time.That is something for the future.  
 
-Vallidators used: 
-- Jigsaw - I used this for CSS verification. [Jigsaw vallidator](https://jigsaw.w3.org/)
-- Nu W3 vallidator. I used this for HTML verification. [W3 vallidator](http:s//validator.w3.org/)
+It was a little challenging in regards to working with Bootstrap. Bootstrap is certainly great for having a structured template in place but admittedly I had challenges with the responsiveness and overiding its templates to suit my requirements. Also 
+#
+## Validators used: 
+- Jigsaw - I used this for CSS verification. [Jigsaw validator](https://jigsaw.w3.org/).
+- Nu W3 validator - I used this for HTML verification. [W3 validator](http:s//validator.w3.org/).
+- Lighthouse - I used this to check performance. However i have to be honest and say that there was alot I was unsure of but 
 
+Proof of final validation:
+HTML:
+
+CSS:
+
+Lighthouse:
+
+
+#
 ## Responsiveness
-I used four devices as my benchmarks - iPhone 5, iPhone X iPad Pro and iMac desktop.
+I used four devices as my benchmarks - iPhone 5, iPhone X iPad Pro and iMac desktop. The main reason for this is that these are the plateforms that I have in my possesion. For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the frint-page was clearly visible but when i uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
 
 
 
+#
 ## Bugs
 
+Navigation bar
+- Originally I wanted to have the band logo in the center of the page at the top; however it was not coorosponding with the other elemants on the navbar. I think this was due to the facrt that I tried to make a navbar by using columns. So instead I decided to just to use Bootstrap's template Nabvbar (with Navbar Brand) and this solved the issue. 
 
+
+Gig Guide - front page
+- For the Gig-list at first i wanted to add a dark drop-down menu for Gig list. Add back ground to column.
+Dropdown does not work. Bug-fix
+I grabbed another dropdown menu from another project.
+
+Contact Us dropdown toggle
+- I primarily had the Contact Us (Contact page) as a drop up page in the footer bar but when I made the screen smaller it would move above the social links. I was spending too much time trying to work this out so I opted to make it a drop-down in the navbar. I then noticed that in smaller sizes it would over expand the screen so you could not add any information or see the "submit button". I contacted tutor support and they suggested i go with a modal instead. It did solve the issue in a different way.
+
+Sound control and Audio 
+- One of the features of the website would be to have a clip of music on the front page. At first I was unable to obtain a audio clip from the band but instead I copied my own version of the song onto gitpod form iTunes. And although this worked at first it a) took up too much space and b) did not always play. So I then decided to use a clip from spotify. Even though 
+
+- 
+#
 
 ## User stories
 
