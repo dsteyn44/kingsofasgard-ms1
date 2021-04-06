@@ -1,7 +1,7 @@
 #  Testing Ground
 
 ## Overview
-Generally I tested often and made it a regular habit to a) check my responsiveness on all devices, and b) vallidating the script. It was only then I would stage, commit and push. I also used repl.it to try pieces of code to assess whether it would work. I found this quite useful as it was quicker than gitpod and I could make mistakes without affecting my actual project. This did however take more time and I think in the future, I will just have to plan better. Also I tended to get caught up in one bug and this wasted precious time.That is something for the future.  
+Generally, I tested often and made it a regular habit to a) check my responsiveness on all devices, and b) vallidating the script. It was only then I would stage, commit and push. I also used repl.it to try pieces of code to assess whether it would work or not. I found this quite useful as it was quicker than gitpod and I could make mistakes without affecting my actual project. This did however take more time ( I mean the checking bit) and I think in the future, I will just have to plan better. Also I tended to get caught up in one bug and this wasted precious time.That is something for the future.  
 
 The project was a little challenging in regards to working with Bootstrap. Bootstrap is certainly great tool for creating a structured template in place but admittedly I had challenges with the responsiveness and overiding its templates to suit my requirements. Admittedly this could be because I am by no means an expert at using the software so when you hit a snag it takes time to figure out where the problem lies. Generally and as mentioned in the coursework, in order to overide bootstrap, you have to be fairly specific.
 #
@@ -24,6 +24,10 @@ Lighthouse:
 
 For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the front-page was clearly visible but when I uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
 
+|   :iPhone 5:    |     :iPad/ Pro:   |    :Desktop:    |
+| good              | good|
+|[The Fanwall Page](wireframes/desktop-fan-wall.png)|[The Fanwall Page](wireframes/tablet-fan-wall.png)|[The Fanwall Page](wireframes/mobile/mobile-fan-wall.png)|
+|[Fail Page](wireframes/desktop-fail-page.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile/mobile-fail-page.png)|
 
 
 #
@@ -45,7 +49,7 @@ Front Page Spotify Sound control and Audio
 - One of the features of the website would be to have a clip of music on the front page. At first I was unable to obtain a audio clip from the band but instead I copied my own version of the song onto gitpod form iTunes. And although this worked at first it a) took up too much space and b) did not always play. So I then decided to use a clip from spotify. Even though 
 
 Fanwall Page Spotify Sound control and Audio
-- This was moving towards the right-hand side 
+- This was moving towards the right-hand side of the screen - particularly in 
 #
 
 ## User stories

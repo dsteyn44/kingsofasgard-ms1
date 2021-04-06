@@ -85,8 +85,8 @@ button span svg:hover {
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
     background-size: cover;
-    max-width: 100%;
-    height: 1000px;
+    height: 100vh;
+    min-width: 100%;
     overflow: hidden;
 }
 
@@ -94,7 +94,10 @@ button span svg:hover {
 
 .bg-front-container {
     background: url('../images/koa-band.jpg') no-repeat center center;
-    background-size: 1300px;
+    background-size: cover;
+    height: 75vh;
+    min-width: 100%;
+    overflow: hidden;
 }
 }
 
@@ -102,6 +105,13 @@ button span svg:hover {
 
 #space-container {
     height: 300px;
+}
+
+@media (max-width: 320px) { 
+
+#space-container {
+    height: 100px;
+}
 }
 
 /*-------Front Gig Guide------*/
@@ -435,7 +445,7 @@ h1{
 #fan-mail {
     height: 200px;
     width: 90%;
-    padding: 10px;
+    padding: 20px;
     margin: 15px;
 }
 
@@ -455,13 +465,13 @@ h1{
 .bg-quote-container {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 20px;
-    min-height: 85%;
+    min-height: 600px;
     padding: 30px;
 }
 
 .fanmail-container {
     margin-top: 10px;
-    min-height: 100px;
+    min-height: 30px;
 }
 
 /*-------Cool Stuff Page-------*/
