@@ -104,7 +104,7 @@ button span svg:hover {
 /*-------Front Page Space Div-------*/
 
 #space-container {
-    height: 300px;
+    height: 350px;
 }
 
 @media (max-width: 320px) { 
@@ -222,7 +222,7 @@ button span svg:hover {
     border-radius: 0;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -306,7 +306,7 @@ section {
 }
 
 a:hover {
-  color: ivory;
+    color: ivory;
 }
 
 /*-------Footer Front Page-------*/
@@ -320,12 +320,12 @@ a:hover {
 }
 
 #foot-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .media-links {
@@ -474,6 +474,11 @@ h1{
     min-height: 30px;
 }
 
+#mg-size p img {
+    width: 300px;
+    height: 100px;
+}
+
 /*-------Cool Stuff Page-------*/
 
 .bg-card-cool {
@@ -531,11 +536,11 @@ h1{
 /*-------Fail Page-------*/
 
 .bg-fail-front-container {
-    background: url('../images/forest.jpg') no-repeat center center fixed;
+    background: url('../images/forest.jpg') no-repeat center center;
     background-size: cover;
     max-width: 100%;
-    height: 1200px;
-    overflow: hidden;
+    height: 100vh;
+    overflow: auto;
 }
 
 .fail-jumbotron {
@@ -555,7 +560,8 @@ h1{
 @media (max-width: 575.98px) { 
 
 .fail-jumbotron {
-    max-width: 100%;
+    min-width: 100%;
+    margin-top: 100px;
 }
 
 .fail-jumbotron h1 {

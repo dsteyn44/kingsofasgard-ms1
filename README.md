@@ -105,8 +105,8 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/).
    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](wireframes/desktop-home.png)|[Home Page](wireframes/tablet-home.png)|[Home Page](wireframes/mobile-home.png)|
-|[The Fanwall Page](wireframes/desktop-fan-wall.png)|[The Fanwall Page](wireframes/tablet-fan-wall.png)|[The Fanwall Page](wireframes/mobile/mobile-fan-wall.png)|
-|[Fail Page](wireframes/desktop-fail-page.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile/mobile-fail-page.png)|
+|[The Fanwall Page](wireframes/desktop-fan-wall.png)|[The Fanwall Page](wireframes/tablet-fan-wall.png)|[The Fanwall Page](wireframes/mobile-fan-wall.png)|
+|[Fail Page](wireframes/desktop-fail-page.png)|[Fail Page](wireframes/tablet-fail-page.png)|[Fail Page](wireframes/mobile-fail-page.png)|
 
 #
 ## Surface
@@ -119,7 +119,7 @@ Front page
 - Ivory - I wanted an off white but something warmer. This I thnk works well with the yellow.  
 
 Fanwall page
-- Lilac - rgb(135, 140, 175) This was a color on the spotify music audio bar and i used it so that there would be some corrolation between the first page and the second.
+- Lilac - rgb(135, 140, 175) This was a color on the spotify music audio bar and I used it so that there would be some correlation between the first page and the second.
 - Ivory - Just to keep every thing consistent. 
 
 Fail page
@@ -127,7 +127,7 @@ Fail page
 - Black (0, 0, 0, 0.8)
 
 #### Typography
-- At first I was using Amatic SC with Roboto as second but then I noticed that Amatic was very thin and not easily noticible so i have just opted for Roboto. However in the future this may change for say Shatter for some of the head lines as it gives it a more dramatic effect.
+- At first I was using Amatic SC with Roboto as second but then I noticed that Amatic was very thin and not easily noticible so I have just opted for Roboto. However in the future this may change for say Shatter for some of the head lines as it gives it a more dramatic effect.
 I used a "Water" icon from Font Awesome; however I was actually aiming for something more nordic such as the symbol for Odin. This was a bit difficult to find and in the end I decided to stay with the same. 
 
 #### Images
