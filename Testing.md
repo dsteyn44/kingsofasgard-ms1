@@ -21,7 +21,8 @@ Lighthouse:
 
 #
 ## Responsiveness
-I used four devices as my benchmarks - iPhone 5, iPhone X iPad Pro and iMac desktop. The main reason for this is that these are the plateforms that I have in my possesion. For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the frint-page was clearly visible but when i uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
+
+I used four devices as my benchmarks - iPhone 5, iPhone X iPad Pro and iMac desktop. The main reason for this is that these are the plateforms that I have in my possesion. For the responsiveness I used Chrome Dev Tools to check how the website would behave. However saying this I must add that it did not always give a correct or real account on the device. Of course it is only a tool and not but I found one instance where it did not give me the correct response. This was an instance for mobile phone. on Dev tools it showed the main figure on the front-page was clearly visible but when I uploaded this on my device his head appeared cut-off by the jumbotron. It look too big. I did clear this up later by adding a media query.  
 
 
 
