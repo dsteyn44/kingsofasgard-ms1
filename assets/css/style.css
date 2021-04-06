@@ -212,7 +212,6 @@ button span svg:hover {
     border-radius: 0;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -221,16 +220,26 @@ button span svg:hover {
     color: ivory;
 }
 
+.audio-jumbotron-left {
+    color: rgba(224, 172, 26);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.audio-jumbotron-left p a {
+    color: ivory;
+}
+
 .col-margin {
     margin-left: 30px;
-}
-
-@media (max-width: 576px) { 
-
-.audio-jumbotron {
-    margin-top: 20px;
-    margin-left: 10px;
-}
 }
 
 .modal {
