@@ -43,6 +43,8 @@ You can visit the deployed website [here](https://dsteyn44.github.io/kingsofasga
 
 ## Features
 
+I changed the features from the wireframes as they did not work very well with the responsiveness. Also I change the name of the gallery from "My Army" to "Skål" - which is more of a postive thank you to the fans. I left out the page for the narrative or storyline "The Legend" and just added it to the information about the band.
+
 Header
 
 - Band's name: Always on the left-hand side to get the users attention.

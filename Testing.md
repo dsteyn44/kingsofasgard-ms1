@@ -121,3 +121,4 @@ Fanwall Page Spotify Sound control and Audio
 ## Side Notes
 
 ### - These are a few of my notes that i took while coding. I ran a little out of time near the end so some do not reflext the final changes. 
+[Side Notes](readme-files/ms-1-list.pdf) [original front page]
